@@ -11,20 +11,18 @@ const BannerSection = () => {
   return (
     <section className="bbtr-home-banner-section relative overflow-hidden">
       
-      {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
         src="/videos/hp-banner-compress.mp4"
+        poster="/images/hp-banner-vid-poster.webp"
         autoPlay
         loop
         muted
         playsInline
       />
 
-      {/* Optional dark overlay */}
       <div className="absolute inset-0 bg-black/40" />
 
-      {/* Content */}
       <div className="container relative z-10">
         <div className="bbtr-home-banner-box pt-[55rem] pb-[8rem] lg:pt-[32vw] lg:pb-[12rem] 1xl:pb-[15rem] 3xl:pb-[18rem]">
           
