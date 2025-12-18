@@ -1,9 +1,15 @@
 "use client";
-import React from 'react'
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { useRef, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const BannerSection = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
 
     const videoRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false);
@@ -24,7 +30,11 @@ const BannerSection = () => {
     <section className="bg-[url('/images/a-banner-mobile-bg.webp')] lg:bg-[url('/images/a-banner-bg.webp')] bg-cover bg-center bg-no-repeat" >
         <div className="container">
             <div className="pt-[55rem] pb-[8rem] lg:pt-[17vw] xl:pt-[25vw] 3xl:pt-[26vw] lg:pb-[12rem] 1xl:pb-[15rem] 3xl:pb-[18rem]">
-                <div className="lg:flex lg:items-center lg:justify-between">
+                <div className="lg:flex lg:items-center lg:justify-between"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                >
                     <div className="text-box text-white text-center lg:text-start lg:w-[50%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 mb-[0.8rem] font-[200]' >About Us</p>
                         <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2]' >Crafting experiences, <strong>not just ownership.</strong></h1>
@@ -43,7 +53,11 @@ const BannerSection = () => {
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] -mt-[3rem] rounded-t-[3rem] bg-[white] lg:mt-[0] lg:rounded-[0]' >
         <div className="container">
-            <div className="flex flex-col lg:flex-row lg:justify-between">
+            <div className="flex flex-col lg:flex-row lg:justify-between"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="text-box lg:w-[47%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Introduction</p>
                         <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >Redefining luxury through <strong>innovation, style, and legacy.</strong></h2>
@@ -132,8 +146,12 @@ const BannerSection = () => {
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-[#F6F6F6]' >
             <div className="container">
-                <div>
-                        <div className="relative">
+                <div >
+                        <div className="relative"
+                            data-aos="fade-up" 
+                            data-aos-easing="linear"
+                            data-aos-duration="500"
+                         >
                             <div className="img-box">
                                 <img className='w-full hidden lg:block' src="/images/a-commitment-bg.webp" alt="" />
                                 <img className='w-full lg:hidden' src="/images/a-commitment-mobile-bg.webp" alt="" />
@@ -144,15 +162,27 @@ const BannerSection = () => {
                             </div>
                         </div>
                         <div className="flex justify-end flex-wrap">
-                            <div className="flex flex-col text-center w-100 mt-[3rem] py-[5rem] px-[3rem] rounded-[2rem] bg-[#CFCFCF] lg:flex-row lg:text-start lg:justify-between lg:rounded-[4rem] lg:px-[6rem] lg:pt-[4rem] lg:pb-[7rem] 3xl:pt-[7rem] 3xl:pb-[15rem] 3xl:px-[10rem] 3xl:rounded-[7rem]">
+                            <div className="flex flex-col text-center w-100 mt-[3rem] py-[5rem] px-[3rem] rounded-[2rem] bg-[#CFCFCF] lg:flex-row lg:text-start lg:justify-between lg:rounded-[4rem] lg:px-[6rem] lg:pt-[4rem] lg:pb-[7rem] 3xl:pt-[7rem] 3xl:pb-[15rem] 3xl:px-[10rem] 3xl:rounded-[7rem]"
+                                data-aos="fade-up" 
+                                data-aos-easing="linear"
+                                data-aos-duration="500"
+                            >
                                 <h3 className='mb-[2rem] 3xl:text-[3.6rem] lg:w-max' >Our Mission</h3>
                                 <p className='max-[1023px]:text-[1.4rem] f-26 font-[300] lg:w-[60%]' >To create extraordinary spaces blending innovation, comfort, and timeless design—delivering value, exceptional service, and meaningful lifestyle experiences for those who refuse compromise.</p>
                             </div>
-                            <div className="flex flex-col text-center w-100 mt-[3rem] py-[5rem] px-[3rem] rounded-[2rem] bg-[#E8E8E8] lg:flex-row lg:text-start lg:justify-between lg:rounded-[4rem] lg:px-[6rem] lg:pt-[4rem] lg:pb-[7rem] 3xl:pt-[7rem] 3xl:pb-[15rem] 3xl:px-[10rem] 3xl:rounded-[7rem] lg:-mt-[4rem] lg:w-[90%] 3xl:-mt-[8rem]" >
+                            <div className="flex flex-col text-center w-100 mt-[3rem] py-[5rem] px-[3rem] rounded-[2rem] bg-[#E8E8E8] lg:flex-row lg:text-start lg:justify-between lg:rounded-[4rem] lg:px-[6rem] lg:pt-[4rem] lg:pb-[7rem] 3xl:pt-[7rem] 3xl:pb-[15rem] 3xl:px-[10rem] 3xl:rounded-[7rem] lg:-mt-[4rem] lg:w-[90%] 3xl:-mt-[8rem]" 
+                                data-aos="fade-up" 
+                                data-aos-easing="linear"
+                                data-aos-duration="500"
+                            >
                                 <h3 className='mb-[2rem] 3xl:text-[3.6rem]' >Our Vision</h3>
                                 <p className='max-[1023px]:text-[1.4rem] f-26 font-[300] lg:w-[60%]' >To redefine luxury living by creating spaces that inspire individuality, elevate lifestyles, and reflect the highest standards of design, craftsmanship, and exclusivity.</p>
                             </div>
-                            <div className="flex flex-col text-center w-100 mt-[3rem] py-[5rem] px-[3rem] rounded-[2rem] bg-[#ffff] lg:rounded-[4rem] lg:w-[70%] lg:-mt-[4rem] lg:text-start 3xl:-mt-[8rem] 3xl:px-[10rem] 3xl:py-[6rem] 3xl:rounded-[7rem]">
+                            <div className="flex flex-col text-center w-100 mt-[3rem] py-[5rem] px-[3rem] rounded-[2rem] bg-[#ffff] lg:rounded-[4rem] lg:w-[70%] lg:-mt-[4rem] lg:text-start 3xl:-mt-[8rem] 3xl:px-[10rem] 3xl:py-[6rem] 3xl:rounded-[7rem]"
+                                data-aos="fade-up" 
+                                data-aos-easing="linear"
+                                data-aos-duration="500"
+                            >
                                 <h3 className='mb-[2rem] 3xl:text-[3.6rem] lg:mb-[0rem]' >Our Ethical Promises</h3>
                                 <p className='max-[1023px]:text-[1.4rem] f-26 font-[300]' >We commit to transparency, integrity, excellence, and trust in every decision.</p>
                                 <ul className='flex flex-wrap lg:justify-between' >
@@ -181,7 +211,11 @@ const BannerSection = () => {
    
    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-black text-white' >
         <div className="container">
-            <div>
+            <div 
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="head-box flex justify-between flex-col lg:flex-row lg:mb-[3rem] 3xl:mb-[5rem]">
                     <div className="text lg:w-[48%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Why Us</p>
@@ -193,7 +227,11 @@ const BannerSection = () => {
                     <img className='w-full hidden lg:block' src="/images/a-why-img.webp" alt="" />
                     <img className='w-full lg:hidden' src="/images/a-why-mob-img.webp" alt="" />
                 </div>
-                <ul className="usp-list mt-[3rem] flex flex-wrap justify-between">
+                <ul className="usp-list mt-[3rem] flex flex-wrap justify-between"
+                    data-aos="fade-up" 
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                >
                     <li className='w-full lg:w-[48%] flex items-center mt-[3rem] pt-[3rem] border-t border-[#484848] last:border-b last:pb-[3rem] 3xl:pt-[4rem] 3xl:mt-[4rem] 3xl:last:pb-[4rem]' >
                         <div className="icon mr-[2.5rem]">
                             <img className='w-[20rem] object-contain lg:w-[8rem] 2xl:w-[10rem] 3xl:w-[12rem]' src="/images/a-why-usp-1.webp" alt="" />
@@ -232,7 +270,11 @@ const BannerSection = () => {
                     </li>
                 </ul>
 
-                <div className="flex items-center justify-center w-max bg-white rounded-[3rem] py-[1.5rem] px-[3rem] mt-[5rem] mx-auto text-black lg:rounded-full lg:py-[2rem] 3xl:p-[4rem] 3xl:mt-[7rem]">
+                <div className="flex items-center justify-center w-max bg-white rounded-[3rem] py-[1.5rem] px-[3rem] mt-[5rem] mx-auto text-black lg:rounded-full lg:py-[2rem] 3xl:p-[4rem] 3xl:mt-[7rem]"
+                    data-aos="fade-up" 
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                >
                     <div className="icon-box mr-[2.5rem] ">
                         <img className='w-[8rem] lg:w-[7rem] 3xl:w-[10rem]' src="/images/a-schedule-img.webp" alt="" />
                     </div>
@@ -264,7 +306,11 @@ const BannerSection = () => {
    </section>
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-[#fff]' >
-        <div className="container">
+        <div className="container"
+            data-aos="fade-up" 
+            data-aos-easing="linear"
+            data-aos-duration="500"
+        >
             <div className='flex justify-between flex-col lg:flex-row lg:items-center' >
                 <div className='lg:w-[40%]' >
                     <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >projects type</p>
@@ -323,7 +369,11 @@ const BannerSection = () => {
                     </ul>
                 </div>
             </div>
-            <div className="flex justify-between flex-col lg:flex-row">
+            <div className="flex justify-between flex-col lg:flex-row"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="lg:w-[48.5%] flex bg-[#F6F6F6] flex-col justify-between mt-[3rem] p-[2rem] rounded-[1.5rem] lg:p-[3rem] ">
                     <div className="hidden lg:block mt-[2rem]">
                         <img className="w-full " src="/images/a-proj-img-2.webp" alt="" />
@@ -379,7 +429,11 @@ const BannerSection = () => {
     </section>
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-[#F6F6F6] overflow-hidden' >
-        <div className="container">
+        <div className="container"
+            data-aos="fade-up" 
+            data-aos-easing="linear"
+            data-aos-duration="500"
+        >
             <div className="flex lg:justify-between">
                 <div className='lg:w-[30%]' >
                     <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >projects type</p>
@@ -465,7 +519,12 @@ const BannerSection = () => {
     </section>
 
     <section className='bg-[#fff] py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem]' >
-        <div className="container">
+        <div className="container"
+        
+            data-aos="fade-up" 
+            data-aos-easing="linear"
+            data-aos-duration="500"
+        >
             <div className="text-center">
                 <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Let’s Just</p>
                 <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >Explore our <strong>projects</strong></h2>

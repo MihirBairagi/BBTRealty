@@ -1834,6 +1834,35 @@ img,
   z-index: -1;
 }
 
+.hp-promise-after::after{
+  content: "";
+  background-image: url(/images/hp-promise-after.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 78%;
+  height: 1rem;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.hp-intro-after::after{
+   content: "";
+  background-image: url(/images/hp-intro-after.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 76%;
+  height: 1rem;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
 .h-why-section.bg-white{
   overflow: hidden;
 }
@@ -1865,6 +1894,13 @@ img,
     bottom: auto;
     top: -5rem;
 }
+.hp-promise-after::after{
+  width: 75%;
+}
+.hp-intro-after::after{
+  width: 65%;
+}
+
 }
 
 

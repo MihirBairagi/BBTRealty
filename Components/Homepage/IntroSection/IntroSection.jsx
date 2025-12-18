@@ -43,9 +43,13 @@ function IntroSection() {
     <>
      <section className='h-intro-section py-[7rem] lg:pt-[12rem] lg:pb-[8rem] bg-white -mt-10 md:-mt-16 lg:-mt-24 1xl:-mt-[7.8rem]  1xl:pt-[15rem] 1xl:pb-[10rem] 3xl:-mt-[9.5rem] 3xl:pt-[20rem] 3xl:pb-[13rem]' >
         <div className="container">
-            <div className="h-intro-box">
+            <div className="h-intro-box"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="head-box relative mb-[2rem]">
-                    <h2 className='max-[1023px]:text-[2rem] h2 font-[500]' >Introduction</h2>
+                    <h2 className='max-[1023px]:text-[2rem] h2 font-[500] hp-intro-after relative' >Introduction</h2>
                 </div>
                 <div className="content-box lg:w-[40%] lg:mt-[5rem]">
                     <h2 className='h2 mb-[2rem] font-[300] leading-[1.2] tracking-[-0.2rem] 1xl:w-[77%] 3xl:w-[80%]' >Crafting landmark spaces with the <strong>precision of a luxury legacy.</strong></h2>
@@ -63,7 +67,11 @@ function IntroSection() {
                             <img className='w-[100%]' src="/images/h-intro-img-2.webp" alt="" />
                         </div>
                         <p className='lg:hidden para font-[300]' >BBT Realty extends the trusted excellence of Big Boy Toyz into modern living, premium commercial developments, and serene wellness destinations—designed for those who expect more from life.</p>
-                        <div className="h-intro-inner-box flex flex-col-reverse lg:flex-col">
+                        <div className="h-intro-inner-box flex flex-col-reverse lg:flex-col"
+                        data-aos="fade-up" 
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                        >
                             <div className="flex my-[4rem] items-center lg:mt-[2rem] lg:mb-[0]">
                                 <div className="icon">
                                     <img className='w-[15rem] max-w-[80px] xl:max-w-[10rem] 3xl:max-w-[15rem]' src="/images/h-intro-qoute.png" alt="" />
@@ -75,7 +83,7 @@ function IntroSection() {
                             </div>
                             <div>
                                 <div className="line-box grey-line relative my-[3rem] 1xl:my-[5rem] 3xl:my-[7rem]">
-                                    <p className='max-[1023px]:text-[1.2rem] para uppercase  text-[#545454] font-[500]'  >Our Promise</p>
+                                    <p className='max-[1023px]:text-[1.2rem] para uppercase  text-[#545454] font-[500] hp-promise-after relative'  >Our Promise</p>
                                 </div>
                                 <ul className="flex items-center gap-[1.2rem] 1xl:gap-[1.8rem]">
                                     <li className='bg-[#F3F3F3] w-[31.5%] p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]' >
@@ -102,7 +110,11 @@ function IntroSection() {
 
     <section className='h-projects-section bg-[#161616]' >
         <div className="container">
-            <div className="h-projects-box text-white py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 1xl:pb-[13rem] 3xl:py-[14rem] 3xl:pb-[17rem]">
+            <div className="h-projects-box text-white py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 1xl:pb-[13rem] 3xl:py-[14rem] 3xl:pb-[17rem]"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="head-box flex justify-between border-b border-[#474747] pb-[5rem] mb-[5rem] 1xl:pb-[8rem] 1xl:mb-[8rem]">
                     <div className="text lg:w-[45%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[2rem]' >Our Projects</p>
@@ -168,7 +180,11 @@ function IntroSection() {
                                 </li>   
                             </ul>
                         </div>
-                        <div className="h-pro-slider-box my-[2rem] lg:my-[5rem] "> 
+                        <div className="h-pro-slider-box my-[2rem] lg:my-[5rem] "
+                            data-aos="fade-up" 
+                            data-aos-easing="linear"
+                            data-aos-duration="500"
+                        > 
                             <Slider {...settings} >
                                 <li>
                                     <div className='hidden lg:block' >
@@ -205,7 +221,11 @@ function IntroSection() {
                                 </span>
                             </Link>
                     </div>
-                    <div className="h-pro-list-2 flex flex-wrap mt-[5rem] lg:mt-[3rem] gap-[5rem] lg:justify-between lg:gap-[3rem]" >
+                    <div className="h-pro-list-2 flex flex-wrap mt-[5rem] lg:mt-[3rem] gap-[5rem] lg:justify-between lg:gap-[3rem]" 
+                        data-aos="fade-up" 
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                    >
                         <div className="h-pro-list relative overflow-hidden rounded-[2rem] w-[100%] lg:w-[48%]">
                             <div className="img-box">
                                 <img className='w-[100%]' src="/images/h-pro-list-2.webp" alt="" />
@@ -245,7 +265,11 @@ function IntroSection() {
                     </div>
                     
                 </div>
-                <div className="h-projects-main-box mt-[6rem]">
+                <div className="h-projects-main-box mt-[6rem]"
+                    data-aos="fade-up" 
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                >
                     <div className="h-pro-inner-head flex justify-between flex-col lg:flex-row lg:items-center">
                         <div className="head-text">
                             <h3 className='h3' >SORA</h3>
@@ -341,7 +365,11 @@ function IntroSection() {
 
     <section className='h-why-section bg-white relative' >
         <div className="container">
-            <div className="h-why-box flex flex-wrap flex-col-reverse lg:flex-row lg:justify-between pt-[10rem] pb-[7rem] xl:py-[10rem] 1xl:py-[11.5rem] 3xl:py-[14rem]">
+            <div className="h-why-box flex flex-wrap flex-col-reverse lg:flex-row lg:justify-between pt-[10rem] pb-[7rem] xl:py-[10rem] 1xl:py-[11.5rem] 3xl:py-[14rem]"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="img-box contents lg:flex lg:items-end lg:w-[27%] 1xl:w-[26%] hp-after-circle-1 relative">
                     <div className="img-box-inner w-[70%] lg:w-[100%] mx-auto relative">
                         <img className='w-[100%]' src="/images/h-why-img-1.webp" alt="" />
@@ -393,7 +421,11 @@ function IntroSection() {
 
     <section className='h-form-section py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem]' >
         <div className="container">
-            <div className="h-form-box flex flex-wrap lg:justify-between">
+            <div className="h-form-box flex flex-wrap lg:justify-between" 
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="text-box w-[100%] lg:w-[40%]">
                     <div className="head-box text-center lg:text-start">
                         <h2 className='h2-big font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem] ' >We’re here <strong>to assist you.</strong></h2>
@@ -419,22 +451,22 @@ function IntroSection() {
                         </div>
                         <div className="media-box flex items-center mt-[3rem] 3xl:mt-[4rem]">
                             <a href="" className='w-[5rem] h-[3.5rem] lg:w-[4rem] lg:h-[2.5rem] place-content-center px-[1.5rem] py-[1rem] lg:px-[0.5rem] lg:py-[0.7rem] 1xl:w-[5rem] 1xl:h-[2.7rem] 1xl:px-[0.4rem] 1xl:py-[0.6rem] border-l border-[#C0C0C0] 3xl:w-[7rem] 3xl:h-[3.2rem]' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-1.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-1.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] lg:w-[4rem] lg:h-[2.5rem] place-content-center px-[1.5rem] py-[1rem] lg:px-[0.5rem] lg:py-[0.7rem] 1xl:w-[5rem] 1xl:h-[2.7rem] 1xl:px-[0.4rem] 1xl:py-[0.6rem] border-l border-[#C0C0C0] 3xl:w-[7rem] 3xl:h-[3.2rem]' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-2.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-2.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] lg:w-[4rem] lg:h-[2.5rem] place-content-center px-[1.5rem] py-[1rem] lg:px-[0.5rem] lg:py-[0.7rem] 1xl:w-[5rem] 1xl:h-[2.7rem] 1xl:px-[0.4rem] 1xl:py-[0.6rem] border-l border-[#C0C0C0] 3xl:w-[7rem] 3xl:h-[3.2rem]' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-3.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-3.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] lg:w-[4rem] lg:h-[2.5rem] place-content-center px-[1.5rem] py-[1rem] lg:px-[0.5rem] lg:py-[0.7rem] 1xl:w-[5rem] 1xl:h-[2.7rem] 1xl:px-[0.4rem] 1xl:py-[0.6rem] border-l border-[#C0C0C0] 3xl:w-[7rem] 3xl:h-[3.2rem]' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-4.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-4.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] lg:w-[4rem] lg:h-[2.5rem] place-content-center px-[1.5rem] py-[1rem] lg:px-[0.5rem] lg:py-[0.7rem] 1xl:w-[5rem] 1xl:h-[2.7rem] 1xl:px-[0.4rem] 1xl:py-[0.6rem] border-l border-[#C0C0C0] 3xl:w-[7rem] 3xl:h-[3.2rem]' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-5.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-5.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] lg:w-[4rem] lg:h-[2.5rem] place-content-center px-[1.5rem] py-[1rem] lg:px-[0.5rem] lg:py-[0.7rem] 1xl:w-[5rem] 1xl:h-[2.7rem] 1xl:px-[0.4rem] 1xl:py-[0.6rem] border-l border-[#C0C0C0] 3xl:w-[7rem] 3xl:h-[3.2rem]' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-6.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-6.png" alt="" />
                             </a>
                             
                         </div>
@@ -474,7 +506,7 @@ function IntroSection() {
                                 <option>State 2</option>
                             </select>
                         </div>
-                        <button type='submit' className='max-[1023px]:text-[1.85rem] f-20 h-[6rem] bg-black text-white rounded-[1rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem]' >
+                        <button type='submit' className='max-[1023px]:text-[1.85rem] f-20 h-[6rem] bg-black text-white rounded-[1rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem] hover:bg-[#414141]' >
                             Submit
                         </button>
                     </form>
@@ -500,22 +532,22 @@ function IntroSection() {
                         </div>
                         <div className="media-box flex items-center mt-[3rem] ">
                             <a href="" className='w-[5rem] h-[3.5rem] place-content-center px-[1.5rem] py-[1rem] border-l border-[#C0C0C0] ' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-1.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-1.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] place-content-center px-[1.5rem] py-[1rem] border-l border-[#C0C0C0] ' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-2.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-2.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] place-content-center px-[1.5rem] py-[1rem] border-l border-[#C0C0C0] ' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-3.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-3.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] place-content-center px-[1.5rem] py-[1rem] border-l border-[#C0C0C0] ' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-4.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-4.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] place-content-center px-[1.5rem] py-[1rem] border-l border-[#C0C0C0] ' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-5.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-5.png" alt="" />
                             </a>
                             <a href="" className='w-[5rem] h-[3.5rem] place-content-center px-[1.5rem] py-[1rem] border-l border-[#C0C0C0] ' >
-                                <img className='w-[100%] h-[100%] object-contain' src="/images/h-form-media-6.png" alt="" />
+                                <img className='w-[100%] h-[100%] object-contain hover:scale-[1.1]' src="/images/h-form-media-6.png" alt="" />
                             </a>
                             
                         </div>

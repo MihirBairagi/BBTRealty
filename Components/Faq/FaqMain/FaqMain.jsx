@@ -23,7 +23,11 @@ const FaqMain = () => {
   return (
     <section className="bg-white py-[6rem] lg:py-[10rem] xl:py-[14rem]">
       <div className="max-1920 ">
-        <div className="container">
+        <div className="container"
+          data-aos="fade-up" 
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
           {faqs.length > 0 ? (
             <div className="flex justify-between items-start flex-wrap">
               {/* <div className="w-full lg:w-[22%] xl:w-[17%]">

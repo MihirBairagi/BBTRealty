@@ -3,6 +3,8 @@ import React from 'react'
 import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import Slider from "react-slick";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 
@@ -101,8 +103,6 @@ function OfferingSection() {
         );
     }
 
- 
-
 
     // 2 video code 
     const desktopRef = useRef(null);
@@ -172,12 +172,23 @@ function OfferingSection() {
         { id: "I", label: "Tower I" },
     ];
 
+    useEffect(() => {
+    // Wait for DOM update
+    setTimeout(() => {
+        AOS.refreshHard(); // recalculates positions & height
+    }, 50);
+    }, [activeTower]);
+    
 
   return (
     <>
     <section className='py-[7rem] xl:pb-[10rem] 1xl:pb-[11rem] 3xl:pb-[14rem] -mt-[3rem] rounded-t-[3rem] bg-[white] lg:rounded-[0]  lg:-mt-24 lg:pt-[12rem] 1xl:-mt-[7.8rem] xl:pt-[15rem] 1xl:pt-[18rem] 3xl:-mt-[9.5rem] 3xl:pt-[20rem]' >
         <div className="container">
-            <div className="flex flex-col lg:flex-row lg:justify-between">
+            <div className="flex flex-col lg:flex-row lg:justify-between"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="text-box lg:w-[47%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem] lg:text-[#6C6C6C]' >OUR OFFERING</p>
                         <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >The ultimate address of <strong>sophistication &  superlative lifestyle.</strong></h2>
@@ -226,7 +237,11 @@ function OfferingSection() {
         <img className='lg:hidden w-full' src="/images/dp-mob-img.webp" alt="" />
     </section>
 
-    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-white' >
+    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-white'
+        data-aos="fade-up" 
+        data-aos-easing="linear"
+        data-aos-duration="500"
+    >
         <div className="container">
             <div className="flex flex-wrap lg:justify-between">
                 <div className="lg:w-[48%]">
@@ -273,7 +288,11 @@ function OfferingSection() {
                             <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Thoughtfully Planned Spaces</p>
                         </li>
                     </ul>
-                    <div className="mt-[4rem] mb-[2.5rem] border-l-[0.3rem] border-[#7C7C7C] pl-[3rem] lg:mb-[0]">
+                    <div className="mt-[4rem] mb-[2.5rem] border-l-[0.3rem] border-[#7C7C7C] pl-[3rem] lg:mb-[0]"
+                        data-aos="fade-up" 
+                        data-aos-easing="linear"
+                        data-aos-duration="500"
+                    >
                         <h3 className='max-[1023px]:text-[2.5rem] mb-[2rem] font-[300] lg:leading-[1.3] lg:tracking-tighter 3xl:text-[3.5rem]' >“We create timeless spaces where luxury, comfort, and extraordinary living come together seamlessly.”</h3>
                         <p className='max-[1023px]:text-[1.6rem] f-24 text-[#959595]' >@bigboytoyz_india</p>
                     </div>
@@ -284,7 +303,11 @@ function OfferingSection() {
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-black' >
         <div className="container">
-            <div className="text-center text-white">
+            <div className="text-center text-white"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Gallery </p>
                 <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem]' ><strong>Gallery </strong>of the project pavilion</h2>
                 <p className='para' >Explore stunning visuals showcasing Pavilion’s architecture, lifestyle, interiors, and amenities crafted for elevated modern living.</p>
@@ -306,7 +329,11 @@ function OfferingSection() {
         </div>
     </section>
 
-    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-white'>
+    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-white'
+        data-aos="fade-up" 
+        data-aos-easing="linear"
+        data-aos-duration="500"
+    >
         <div className="container">
             <div className="lg:flex lg:items-center lg:justify-between">
                 <div className="mb-[1.5rem] lg:w-[45%]">
@@ -412,11 +439,19 @@ function OfferingSection() {
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-black' >
         <div className="container">
-            <div className="text-center text-white">
+            <div className="text-center text-white" 
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem]' >Our project <strong>showreel </strong></h2>
                 <p className='para' >Explore beautifully crafted visuals showcasing Pavilion’s design excellence, comfort, elegance, and modern living.</p>
             </div>
-            <div className="vid-box mt-[3rem] xl:mt-[4rem] 3xl:mt-[5rem]">
+            <div className="vid-box mt-[3rem] xl:mt-[4rem] 3xl:mt-[5rem]"
+                data-aos="fade-up" 
+                data-aos-easing="linear"
+                data-aos-duration="500"
+            >
                 <div className="relative rounded-[1.5rem] overflow-hidden 3xl:rounded-[2.5rem]">
                     {/* Desktop video (visible only on lg when playing) */}
                     <video
@@ -427,7 +462,7 @@ function OfferingSection() {
                     // controls // uncomment if you want native controls while playing
                     // muted // optional
                     >
-                    <source src="/videos/menu-collection.mp4" type="video/mp4" />
+                    <source src="/videos/hp-banner-compress.mp4" type="video/mp4" />
                     </video>
 
                     {/* Mobile video (visible only on small when playing) */}
@@ -470,7 +505,11 @@ function OfferingSection() {
         </div>
     </section>
 
-    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-white'>
+    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-white'
+        data-aos="fade-up" 
+        data-aos-easing="linear"
+        data-aos-duration="500"
+    >
         <div className="container">
             <div className="lg:flex lg:items-center text-center lg:text-start lg:justify-between">
                 <div className="mb-[1.5rem] lg:w-[40%]">
@@ -686,7 +725,11 @@ function OfferingSection() {
     </section>
 
     <section className='pb-[7rem] xl:pb-[10rem] 1xl:pb-[11rem] 3xl:pb-[14rem] bg-white overflow-hidden' >
-        <div className="m-auto">
+        <div className="m-auto"
+            data-aos="fade-up" 
+            data-aos-easing="linear"
+            data-aos-duration="500"
+        >
             <div className="text-center mb-[3rem] xl:mb-[4rem]">
                 <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Realtime updates</p>
                 <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >Current site <strong>progress</strong></h2>
@@ -729,7 +772,11 @@ function OfferingSection() {
     </section>
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-[#F6F6F6]' >
-        <div className="container">
+        <div className="container"
+            data-aos="fade-up" 
+            data-aos-easing="linear"
+            data-aos-duration="500"
+        >
             <div className="flex flex-wrap lg:justify-between">
                 <div className="w-full text-center mb-[2.5rem] lg:text-start lg:w-[30%] lg:mb-[3.5rem]">
                     <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Locate Us</p>
@@ -805,7 +852,7 @@ function OfferingSection() {
                                 <option>Query 2</option>
                             </select>
                         </div>
-                        <button type='submit' className='max-[1023px]:text-[1.85rem] f-20 h-[6rem] bg-black text-white rounded-[1rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem]' >
+                        <button type='submit' className='max-[1023px]:text-[1.85rem] f-20 h-[6rem] bg-black text-white rounded-[1rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem] hover:bg-[#414141]' >
                             Submit
                         </button>
                     </form>
