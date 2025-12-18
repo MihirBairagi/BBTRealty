@@ -26,6 +26,7 @@ const Header = ({}) => {
     "/emi-calculator",
     "/privacy-policy",
     "/terms-and-conditions",
+    "/disclaimer",
     "/refund-policy",
   ];
   const dynamicPrefixes = [
