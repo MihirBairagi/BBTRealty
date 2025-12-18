@@ -275,7 +275,7 @@ const FooterMenuMobile = () => {
                 <li>
                   <Link
                     className="text-2xl py-1 mt-4 block text-white"
-                    href="#"
+                    href="/about-us"
                   >
                     About Us
                   </Link>
@@ -291,7 +291,7 @@ const FooterMenuMobile = () => {
                 <li>
                   <Link
                     className="text-2xl py-1 mt-4 block text-white"
-                    href="#"
+                    href="/contact-us"
                   >
                     Contact Us
                   </Link>
