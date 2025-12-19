@@ -107,9 +107,11 @@ function ContactUs() {
                         </div>
                         <div className="select">
                             <select className='max-[1023px]:text-[1.65rem] para placeholder bg-transparent outline-0 border border-[#0000007d] rounded-[0.8rem] h-[6rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem] pl-[2rem] pr-[1rem] w-[100%]' >
-                                <option>Project Type*</option>
-                                <option>Project Type 1</option>
-                                <option>Project Type 2</option>
+                                <option>Project*</option>
+                                <option>Pavilion – Vadodara</option>
+                                <option>BBT ONE – Karol Bagh, Delhi</option>
+                                <option>The Royale Pavilion – Lucknow</option>
+                                <option>SORA – Mandi, Himachal Pradesh</option>
                             </select>
                         </div>
                        <div>
@@ -280,7 +282,7 @@ function ContactUs() {
                     <h2 className='h2-big font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem] 3xl:mb-[2rem]' >Experience luxury at the <strong>Big Boy Toyz house.</strong></h2>
                     <p className='para font-[300]' >The House of Big Boy Toyz represents a world where luxury, lifestyle, and passion come together seamlessly. More than India’s most trusted destination for pre-owned supercars, BBT has transformed into a lifestyle universe offering exclusive experiences and premium verticals for those who appreciate refined living. It celebrates the spirit of speed, design, craftsmanship, and individuality. From rare high-performance machines to ultra-luxury living concepts, each offering under the BBT umbrella is built with uncompromising quality and forward-thinking vision. Every brand reflects the values of excellence, exclusivity, and aspiration, creating a journey that goes far beyond ownership. The House of Big Boy Toyz is where luxury becomes personal, experiences become unforgettable, and desire becomes reality.</p>
                     <div className='mt-[2.5rem]' >
-                        <Link href="" className='max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn bg-transparent text-white border-[white] font-normal justify-center hover:bg-[#000]' >About Us</Link>
+                        <Link href="/about-us" className='max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn bg-transparent text-white border-[white] font-normal justify-center hover:bg-[#000]' >About Us</Link>
                     </div>
                 </div>
                 <div className="img mx-auto w-full sm:w-[60%] lg:w-[48%] lg:mr-[0]">

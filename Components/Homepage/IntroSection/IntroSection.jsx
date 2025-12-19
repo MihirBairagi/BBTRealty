@@ -2,6 +2,7 @@
 import React from 'react'
 import Link from "next/link";
 import Slider from 'react-slick';
+import { states } from '../../../public/data/dummyData';
 
 function IntroSection() {
 
@@ -78,7 +79,9 @@ function IntroSection() {
                                 </div>
                                 <div className="text ml-[3rem] 3xl:ml-[5rem]">
                                     <h4 className='max-[1023px]:text-[2rem] h3 tracking-[-0.1rem] font-[400] leading-[1.2] mb-[1rem]' >Every space we build carries the promise of exceptional living.</h4>
-                                    <p className='max-[1023px]:text-[1.4rem] f-24 text-[#959595]' >@bigboytoyz_india</p>
+                                    <a target='_blank' href="https://www.bigboytoyz.com/" >
+                                        <p className='max-[1023px]:text-[1.4rem] f-24 text-[#959595]' >@bigboytoyz_india</p>
+                                    </a>
                                 </div>
                             </div>
                             <div>
@@ -143,7 +146,7 @@ function IntroSection() {
                             <p className='para font-[300]' >Pavilion brings refined architecture, spacious residences, and curated lifestyle amenities together—offering a luxury community designed for comfort, privacy, and elevated everyday living.</p>
                        </div>
                         <div className="btn-box hidden lg:block">
-                            <Link href="" className='com-btn'>
+                            <Link href="/detail-page" className='com-btn'>
                                 View Project
                                 <span>
                                     <img className='btn-arrow' src="/images/h-btn-blk-arrow-.png" alt="" />
@@ -180,41 +183,203 @@ function IntroSection() {
                                 </li>   
                             </ul>
                         </div>
-                        <div className="h-pro-slider-box my-[2rem] lg:my-[5rem] "
+                        <div className="h-pro-slider-box my-[2rem] lg:my-[5rem] 2xl:my-[8rem]"
                             data-aos="fade-up" 
                             data-aos-easing="linear"
                             data-aos-duration="500"
                         > 
                             <Slider {...settings} >
-                                <li>
-                                    <div className='hidden lg:block' >
-                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/images/h-pro-slider-1.webp" alt="" />
+                                <li className="relative">
+                                    {/* Desktop image */}
+                                    <div className="hidden lg:block relative">
+                                        <img
+                                        className="desktop-img rounded-[2rem] w-full"
+                                        src="/images/h-pro-slider-1.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[2rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
                                     </div>
-                                    <div className='lg:hidden' >
-                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/images/h-pro-slider-mob-1.webp" alt="" />
+
+                                    {/* Mobile image */}
+                                    <div className="lg:hidden relative">
+                                        <img
+                                        className="mobile-img rounded-[1rem] w-full"
+                                        src="/images/h-pro-slider-mob-1.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[1rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
                                     </div>
                                 </li>
-                                <li>
-                                    <div className='hidden lg:block' >
-                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/images/h-pro-slider-1.webp" alt="" />
+                                <li className="relative">
+                                    {/* Desktop image */}
+                                    <div className="hidden lg:block relative">
+                                        <img
+                                        className="desktop-img rounded-[2rem] w-full"
+                                        src="/images/h-pro-slider-2.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[2rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
                                     </div>
-                                    <div className='lg:hidden' >
-                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/images/h-pro-slider-mob-1.webp" alt="" />
+
+                                    {/* Mobile image */}
+                                    <div className="lg:hidden relative">
+                                        <img
+                                        className="mobile-img rounded-[1rem] w-full"
+                                        src="/images/h-pro-slider-mob-1.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[1rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
                                     </div>
                                 </li>
-                                <li>
-                                    <div className='hidden lg:block' >
-                                        <img className='desktop-img rounded-[2rem] w-[100%]' src="/images/h-pro-slider-1.webp" alt="" />
+                                <li className="relative">
+                                    {/* Desktop image */}
+                                    <div className="hidden lg:block relative">
+                                        <img
+                                        className="desktop-img rounded-[2rem] w-full"
+                                        src="/images/h-pro-slider-3.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[2rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
                                     </div>
-                                    <div className='lg:hidden' >
-                                        <img className='mobile-img rounded-[1rem] w-[100%]' src="/images/h-pro-slider-mob-1.webp" alt="" />
+
+                                    {/* Mobile image */}
+                                    <div className="lg:hidden relative">
+                                        <img
+                                        className="mobile-img rounded-[1rem] w-full"
+                                        src="/images/h-pro-slider-mob-1.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[1rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
                                     </div>
                                 </li>
+                                <li className="relative">
+                                    {/* Desktop image */}
+                                    <div className="hidden lg:block relative">
+                                        <img
+                                        className="desktop-img rounded-[2rem] w-full"
+                                        src="/images/h-pro-slider-4.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[2rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+
+                                    {/* Mobile image */}
+                                    <div className="lg:hidden relative">
+                                        <img
+                                        className="mobile-img rounded-[1rem] w-full"
+                                        src="/images/h-pro-slider-mob-1.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[1rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+                                </li>
+                                <li className="relative">
+                                    {/* Desktop image */}
+                                    <div className="hidden lg:block relative">
+                                        <img
+                                        className="desktop-img rounded-[2rem] w-full"
+                                        src="/images/h-pro-slider-5.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[2rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+
+                                    {/* Mobile image */}
+                                    <div className="lg:hidden relative">
+                                        <img
+                                        className="mobile-img rounded-[1rem] w-full"
+                                        src="/images/h-pro-slider-mob-1.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[1rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+                                </li>
+
                             </Slider>
                         </div>
                     </div>
                     <div className="btn-box lg:hidden">
-                            <Link href="" className='com-btn mt-[5rem]' >
+                            <Link href="/detail-page" className='com-btn mt-[5rem]' >
                                 View Project
                                 <span>
                                     <img className='btn-arrow' src="/images/h-btn-blk-arrow-.png" alt="" />
@@ -239,7 +404,7 @@ function IntroSection() {
                                     <p className='max-[1023px]:text-[1.6rem] f-20' >Karol Bagh, Delhi</p>
                                 </div>
                                 <p className='max-[1023px]:text-[1.4rem] f-18 font-[300] lg:mt-[1.5rem]' >A premium commercial landmark in the heart of Delhi, designed for high visibility and business excellence.</p>
-                                <Link href="" className='max-[1023px]:text-[1.5rem] f-18 flex items-center mt-[1.5rem]'>
+                                <Link href="/detail-page" className='max-[1023px]:text-[1.5rem] f-18 flex items-center mt-[1.5rem]'>
                                     View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
                                 </Link>
                             </div>
@@ -257,7 +422,7 @@ function IntroSection() {
                                     <p className='max-[1023px]:text-[1.6rem] f-20' >Lucknow</p>
                                 </div>
                                 <p className='max-[1023px]:text-[1.4rem] f-18 font-[300] lg:mt-[1.5rem] ' >A grand celebration venue designed with regal architecture & luxurious detailing, perfect for weddings, events, & unforgettable moments.</p>
-                                <Link href="" className='max-[1023px]:text-[1.5rem] f-18 flex items-center mt-[1.5rem]'>
+                                <Link href="/detail-page" className='max-[1023px]:text-[1.5rem] f-18 flex items-center mt-[1.5rem]'>
                                     View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
                                 </Link>
                             </div>
@@ -265,7 +430,7 @@ function IntroSection() {
                     </div>
                     
                 </div>
-                <div className="h-projects-main-box mt-[6rem]"
+                <div className="h-projects-main-box mt-[6rem] 2xl:mt-[8rem]"
                     data-aos="fade-up" 
                     data-aos-easing="linear"
                     data-aos-duration="500"
@@ -284,7 +449,7 @@ function IntroSection() {
                             <p className='para font-[300]' >A Himalayan wellness retreat designed for calm, clarity, and elevated living among clouds and pine forests.</p>
                        </div>
                         <div className="btn-box hidden lg:block">
-                            <Link href="" className='com-btn'>
+                            <Link href="/detail-page" className='com-btn'>
                                 View Project
                                 <span>
                                     <img className='btn-arrow' src="/images/h-btn-blk-arrow-.png" alt="" />
@@ -351,7 +516,7 @@ function IntroSection() {
                         </div>
                     </div>
                     <div className="btn-box lg:hidden">
-                            <Link href="" className='com-btn mt-[5rem]' >
+                            <Link href="/detail-page" className='com-btn mt-[5rem]' >
                                 View Project
                                 <span>
                                     <img className='btn-arrow' src="/images/h-btn-blk-arrow-.png" alt="" />
@@ -444,8 +609,7 @@ function IntroSection() {
                             <div className="text">
                                 <p className="para font-[300] mb-[0.2rem]"> The best way to get answer faster.</p>
                                 <div className="lg:flex lg:items-start">
-                                    <a className="f-20 lg:mr-[0.5rem]" href="mailto:realty@bigboytoyz.com">realty@bigboytoyz.com, </a>
-                                    <a className="f-20" href="mailto:pavilion@bigboytoyz.com">pavilion@bigboytoyz.com</a>
+                                    <a className="f-20 lg:mr-[0.5rem]" href="mailto:realty@bigboytoyz.com">realty@bigboytoyz.com </a>
                                 </div>
                             </div>
                         </div>
@@ -494,16 +658,21 @@ function IntroSection() {
                         </div>
                         <div className="select">
                             <select className='max-[1023px]:text-[1.65rem] para placeholder bg-transparent outline-0 border border-[#0000007d] rounded-[0.8rem] h-[6rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem] pl-[2rem] pr-[1rem] w-[100%]' >
-                                <option>Choose Property Type*</option>
-                                <option>Property Type 1</option>
-                                <option>Property Type 2</option>
+                                <option>Choose Project*</option>
+                                <option>Pavilion – Vadodara</option>
+                                <option>BBT ONE – Karol Bagh, Delhi</option>
+                                <option>The Royale Pavilion – Lucknow</option>
+                                <option>SORA – Mandi, Himachal Pradesh</option>
                             </select>
                         </div>
                         <div className="select">
                             <select className='max-[1023px]:text-[1.65rem] para placeholder bg-transparent outline-0 border border-[#0000007d] rounded-[0.8rem] h-[6rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem] pl-[2rem] pr-[1rem] w-[100%]' > 
-                                <option>Select Your State*</option>
-                                <option>State 1</option>
-                                <option>State 2</option>
+                                <option value="">Select Your State*</option>
+                                {states.map((state) => (
+                                    <option key={state} value={state}>
+                                    {state}
+                                    </option>
+                                ))}
                             </select>
                         </div>
                         <button type='submit' className='max-[1023px]:text-[1.85rem] f-20 h-[6rem] bg-black text-white rounded-[1rem] lg:h-[4rem] xl:h-[4.5rem] 1xl:h-[5rem] 3xl:h-[6.5rem] lg:rounded-[0.5rem] 3xl:rounded-[1rem] hover:bg-[#414141]' >

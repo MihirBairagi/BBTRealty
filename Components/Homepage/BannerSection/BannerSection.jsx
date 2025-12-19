@@ -42,13 +42,20 @@ const BannerSection = () => {
               </h1>
             </div>
 
-            <div className="icon-box mt-[3.5rem]">
+           <div className="icon-box mt-[3.5rem]">
               <img
                 src="/images/bbtr-h-down-arrow.webp"
                 alt="Banner Icon"
-                className="object-contain w-[8rem] lg:w-[9rem] xl:w-[11rem] 1xl:w-[13rem] 3xl:w-[17rem] mx-auto"
+                className="object-contain w-[8rem] lg:w-[9rem] xl:w-[11rem] 1xl:w-[13rem] 3xl:w-[17rem] mx-auto hover:scale-[1.1] cursor-pointer"
+                onClick={() => {
+                  window.scrollTo({
+                    top: window.innerHeight * 1.15,
+                    behavior: "smooth",
+                  });
+                }}
               />
             </div>
+
           </div>
 
         </div>

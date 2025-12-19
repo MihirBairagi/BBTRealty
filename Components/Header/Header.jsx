@@ -57,7 +57,7 @@ const Header = ({}) => {
 
       <div className="max-1920">
         <div
-          className={`header-wrapper w-full p-[3rem] mx-auto lg:py-[2rem] lg:px-[4rem] 1xl:py-[2.5rem] 2xl:px-[4.3rem] 3xl:py-[3rem] 3xl:px-[5.5rem] ${
+          className={`relative header-wrapper w-full p-[3rem] mx-auto lg:py-[2rem] lg:px-[4rem] 1xl:py-[2.5rem] 2xl:px-[4.3rem] 3xl:py-[3rem] 3xl:px-[5.5rem] ${
             isPageHeader
               ? "py-[2rem] px-[2rem] 2xl:pt-[2.5rem] 2xl:pb-[3rem] 2xl:pr-[4rem] 2xl:pl-[3.5rem] 3xl:py-[3.5rem] 3xl:px-[5.5rem]"
               : ""
@@ -65,7 +65,7 @@ const Header = ({}) => {
         >
           <div className="flex justify-between items-center">
             <div
-              className={`flex items-center menu-toggler cursor-pointer lg:order-3 lg:hidden`}
+              className={`flex items-center menu-toggler cursor-pointer lg:order-3 justify-end lg:w-[15rem] xl:w-[22rem] 3xl:w-[28.5rem] `}
               onClick={() => setOpenMenu(true)}
             >
               <span className="text-white uppercase mr-5 hidden lg:inline-block text-base xl:text-lg 3xl:text-2xl 3xl:mr-6">
@@ -90,28 +90,160 @@ const Header = ({}) => {
               </Link>
             </div>
             <div
-              className={`lg:flex items-center justify-center header-phone-list hidden lg:order-2 [&>a:last-of-type]:border-r [&>a:last-of-type]:border-r-[#fff] group`}
+              className={`lg:flex items-center justify-center header-phone-list hidden lg:order-2 [&>a:last-of-type]:border-r [&>a:last-of-type]:border-r-[#fff]`}
             >
-              <Link href="detail-page" className={styles.menuItem}>
-                Pavilion – Vadodara{" "}
+             <div className="group">
+                <Link href="#" className={`${styles.menuItem} flex items-center`}>
+                  Projects
+                  <span className="ml-2 text-xs transition-transform duration-300 group-hover:rotate-180">
+                    ▼
+                  </span>
+                </Link>
+
+                {/* Dropdown */}
+                <ul
+                  className="
+                    flex items-center justify-between
+                    absolute 
+                    left-1/2 
+                    top-[90%]
+                    -translate-x-1/2
+                    w-[95%]
+                    xl:w-[80%]
+                    bg-black 
+                    border border-white/20 
+                    rounded-[3rem]
+                    opacity-0 invisible 
+                    group-hover:opacity-100 group-hover:visible 
+                    transition-all duration-300 
+                    z-50
+                    p-[2rem]
+                  "
+                >
+
+                  <li className="w-[25%] h-[-webkit-fill-available]" >
+                    <Link
+                      href="/detail-page"
+                      className="block p-[1rem] text-white text-sm rounded-[2rem] transition h-full"
+                    >
+                     <div className="h-pro-list relative overflow-hidden rounded-[2rem] h-full">
+                            <div className="img-box h-full">
+                                <img className='w-[100%] h-full object-cover' src="/images/h-pro-slider-1.webp" alt="" />
+                            </div>
+                            <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
+                                <h4 className="f-22" >Pavilion</h4>
+                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Launching In FEB</h5>
+                                <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
+                                    <span>
+                                        <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/images/h-pro-location.png" alt="" />
+                                    </span>
+                                    <p className='para' >Vadodara</p>
+                                </div>
+                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center'>
+                                    View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                  </li>
+
+                  <li className="w-[25%] h-[-webkit-fill-available]" >
+                    <Link
+                      href="/detail-page"
+                      className="block p-[1rem] text-white text-sm rounded-[2rem] transition  h-full"
+                    >
+                      <div className="h-pro-list relative overflow-hidden rounded-[2rem] h-full">
+                            <div className="img-box h-full">
+                                <img className='w-[100%] h-full object-cover' src="/images/h-pro-list-2.webp" alt="" />
+                            </div>
+                            <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
+                                <h4 className="f-22" >BBT ONE</h4>
+                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Coming Soon</h5>
+                                <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
+                                    <span>
+                                        <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/images/h-pro-location.png" alt="" />
+                                    </span>
+                                    <p className='para' >Karol Bagh, Delhi</p>
+                                </div>
+                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center'>
+                                    View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                  </li>
+
+                  <li className="w-[25%] h-[-webkit-fill-available]" >
+                    <Link
+                      href="/detail-page"
+                      className="block p-[1rem] text-white text-sm rounded-[2rem] transition  h-full"
+                    >
+                      <div className="h-pro-list relative overflow-hidden rounded-[2rem] h-full">
+                            <div className="img-box h-full">
+                                <img className='w-[100%] h-full object-cover' src="/images/h-pro-list-3.webp" alt="" />
+                            </div>
+                            <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
+                                <h4 className="f-22" >The Royale Pavilion</h4>
+                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Coming Soon</h5>
+                                <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
+                                    <span>
+                                        <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/images/h-pro-location.png" alt="" />
+                                    </span>
+                                    <p className='para' >Lucknow</p>
+                                </div>
+                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center'>
+                                    View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                  </li>
+
+                  <li className="w-[25%] h-[-webkit-fill-available]" >
+                    <Link
+                      href="/detail-page"
+                      className="block p-[1rem] text-white text-sm rounded-[2rem] transition  h-full"
+                    >
+                      <div className="h-pro-list relative overflow-hidden rounded-[2rem] h-full">
+                            <div className="img-box h-full">
+                                <img className='w-[100%] h-full object-cover' src="/images/h-sora-img-1.webp" alt="" />
+                            </div>
+                            <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
+                                <h4 className="f-22" >Sora</h4>
+                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Coming Soon</h5>
+                                <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
+                                    <span>
+                                        <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/images/h-pro-location.png" alt="" />
+                                    </span>
+                                    <p className='para' >Mandi, Himachal Pradesh</p>
+                                </div>
+                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center'>
+                                    View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              <Link href="about-us" className={styles.menuItem}>
+                About Us{" "}
               </Link>
-              <Link href="detail-page" className={styles.menuItem}>
-                BBT ONE – Karol Bagh, Delhi{" "}
+              <Link href="contact-us" className={styles.menuItem}>
+                Contact Us{" "}
               </Link>
-              <Link href="detail-page" className={styles.menuItem}>
-                The Royale Pavilion – Lucknow{" "}
-              </Link>
-              <Link href="detail-page" className={styles.menuItem}>
-                SORA – Mandi, Himachal Pradesh{" "}
+              <Link href="faq" className={styles.menuItem}>
+                FAQ
               </Link>
 
-              <div className="contact items-center hidden lg:flex lg:w-max text-white">
+              {/* <div className="contact items-center hidden lg:flex lg:w-max text-white">
                 <img className='lg:w-[3rem] lg:ml-[1.5rem] xl:ml-[2rem] 1xl:ml-[3rem] lg:mr-[1rem] xl:w-[4rem] 1xl:w-[5.2rem]' src="/images/hp-head-tel.webp" alt="" />
                   <div className="text">
                     <p className='f-18 font-[300] lg:mb-[0] xl:mb-[0.2rem]' > Connect with us</p>
                     <a className='f-20' href="tel:+91 99999 990 30">(+91) 99999 990 30</a>
                   </div>
-              </div>
+              </div> */}
 
             </div>
 

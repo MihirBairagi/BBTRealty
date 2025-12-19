@@ -40,7 +40,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
         </span>
 
         <div className="menu-wrapper h-full overflow-y-auto max-h-[100vh] no-scrollbar pb-[100px]">
-          {/* <div className="primary-menu-box xl:pt-[30px]">
+          <div className="primary-menu-box xl:pt-[30px]">
             <ul className="primary-menu">
               <li className="my-[5px]">
                 <Link
@@ -51,14 +51,14 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
                   onMouseLeave={() => handleMouseLeave(collectionVideoRef)}
                 >
                   <span>Explore</span>
-                  <video
+                  {/* <video
                     ref={collectionVideoRef}
                     src="/videos/menu-collection.mp4"
                     className="object-contain w-[80px] mx-[10px] hidden lg:inline-block lg:rounded-[7px]"
                     loop
                     playsInline
                     preload="auto"
-                  ></video>{" "}
+                  ></video>{" "} */}
                   <span className="relative">
                     {" "}
                     Collection
@@ -78,14 +78,14 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
                   onMouseLeave={() => handleMouseLeave(modificationsVideoRef)}
                 >
                   <span>Modification </span>
-                  <video
+                  {/* <video
                     ref={modificationsVideoRef}
                     src="/videos/menu-collection.mp4"
                     className="object-contain w-[80px] mx-[10px] hidden lg:inline-block lg:rounded-[7px]"
                     loop
                     playsInline
                     preload="auto"
-                  ></video>{" "}
+                  ></video>{" "} */}
                   <span className="relative">
                     {" "}
                     & Upgrade
@@ -105,14 +105,14 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
                   onMouseLeave={() => handleMouseLeave(carDetailingVideoRef)}
                 >
                   <span>Car Detailing </span>
-                  <video
+                  {/* <video
                     ref={carDetailingVideoRef}
                     src="/videos/menu-collection.mp4"
                     className="object-contain w-[80px] mx-[10px] hidden lg:inline-block lg:rounded-[7px]"
                     loop
                     playsInline
                     preload="auto"
-                  ></video>{" "}
+                  ></video>{" "} */}
                   <span className="relative">
                     {" "}
                     Services
@@ -132,14 +132,14 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
                   onMouseLeave={() => handleMouseLeave(servicesVideoRef)}
                 >
                   <span>Car </span>
-                  <video
+                  {/* <video
                     ref={servicesVideoRef}
                     src="/videos/menu-collection.mp4"
                     className="object-contain w-[80px] mx-[10px] hidden lg:inline-block lg:rounded-[7px]"
                     loop
                     playsInline
                     preload="auto"
-                  ></video>{" "}
+                  ></video>{" "} */}
                   <span className="relative">
                     {" "}
                     Servicing
@@ -151,7 +151,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
                 </Link>
               </li>
             </ul>
-          </div> */}
+          </div>
 
           <div className="bottom-menu-box pt-[3rem] border-t border-[#333333] lg:pb-[30px] xl:flex xl:justify-between xl:border-[#1A1A1A] xl:mt-0 xl:pt-[100px] xl:items-end">
             <div className="xl:flex xl:w-max">

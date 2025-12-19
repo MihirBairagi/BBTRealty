@@ -294,7 +294,9 @@ function OfferingSection() {
                         data-aos-duration="500"
                     >
                         <h3 className='max-[1023px]:text-[2.5rem] mb-[2rem] font-[300] lg:leading-[1.3] lg:tracking-tighter 3xl:text-[3.5rem]' >“We create timeless spaces where luxury, comfort, and extraordinary living come together seamlessly.”</h3>
-                        <p className='max-[1023px]:text-[1.6rem] f-24 text-[#959595]' >@bigboytoyz_india</p>
+                        <a target='_blank' href="https://www.bigboytoyz.com/" >
+                            <p className='max-[1023px]:text-[1.6rem] f-24 text-[#959595]' >@bigboytoyz_india</p>
+                        </a>
                     </div>
                 </div>
             </div>
