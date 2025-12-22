@@ -43,8 +43,8 @@ const BannerSection = () => {
 
                         </div>
                         <div class="mt-[2.5rem] flex items-center justify-center lg:w-[50%] mx-auto">
-                            <a class="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn font-normal justify-center" href="">Enquire Now</a>
-                            <a class="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn font-normal justify-center ml-[1.5rem]" href="">Explore the Lifestyle</a>
+                            <a class="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn font-normal justify-center px-[3rem] lg:px-[4rem]" href="">Enquire Now</a>
+                            <a class="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn font-normal justify-center ml-[1.5rem] px-[3rem] lg:px-[4rem]" href="">Explore the Lifestyle</a>
                         </div>
                         {/* <ul className='mt-[1.5rem] flex flex-wrap' >
                             <li className='flex items-center w-50% text-start border-l border-[#ffffff91] even:border-r mt-[1.5rem] pl-[1.5rem] pr-[1rem] lg:w-[25%] lg:pl-[2.5rem] lg:pr-[2rem] xl:pl-[3.5rem] xl:pr-[2.5rem] 3xl:pl-[5rem] 3xl:pr-[3.5rem]' >
