@@ -21,9 +21,10 @@ const BannerSection = () => {
                     >
                         <p className='max-[1023px]:text-[1.5rem] f-18 mb-[0.8rem] flex w-max items-center mx-auto' >
                             <span><img className='w-[1.5rem] mr-[1rem]' src="/images/h-pro-location.png" alt="" /></span>
-                            Vadodara,Gujarat
+                            Luxury Residences in Vadodara
                         </p>
-                        <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2] lg:w-[80%] lg:mx-auto' ><strong>Pavilion</strong> — crafted for sophisticated superlative living.</h1>
+                        <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2] lg:w-[80%] lg:mx-auto' ><strong>Pavilion</strong> —  A Refined Address for Elevated Living</h1>
+                        <p className="para mt-[0.5rem] lg:w-[60%] lg:mx-auto" >Thoughtfully designed residences, expansive layouts, and curated lifestyle amenities come together to create one of Vadodara’s most distinguished residential communities.</p>
                         <div className="mt-[3.5rem] lg:mt-[3rem] lg:mb-[5rem] xl:mb-[8rem] 1xl:mb-[12rem]  hidden lg:block" >
                             <div className="img-box relative flex items-center justify-center">
                                 <img
@@ -41,7 +42,11 @@ const BannerSection = () => {
 
 
                         </div>
-                        <ul className='mt-[1.5rem] flex flex-wrap' >
+                        <div class="mt-[2.5rem] flex items-center justify-center lg:w-[50%] mx-auto">
+                            <a class="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn font-normal justify-center" href="">Enquire Now</a>
+                            <a class="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn font-normal justify-center ml-[1.5rem]" href="">Explore the Lifestyle</a>
+                        </div>
+                        {/* <ul className='mt-[1.5rem] flex flex-wrap' >
                             <li className='flex items-center w-50% text-start border-l border-[#ffffff91] even:border-r mt-[1.5rem] pl-[1.5rem] pr-[1rem] lg:w-[25%] lg:pl-[2.5rem] lg:pr-[2rem] xl:pl-[3.5rem] xl:pr-[2.5rem] 3xl:pl-[5rem] 3xl:pr-[3.5rem]' >
                                 <img className='w-[3rem] h-[3rem] mr-[1rem] xl:w-[4rem] xl:h-[4rem] xl:mr-[1.5rem] 3xl:w-[5.5rem] 3xl:h-[5.5rem] 3xl:mr-[2rem] object-contain' src="/images/dp-banner-icon-1.png" alt="" />
                                 <p className='max-[1023px]:text-[1.4rem] f-24 font-[300] lg:font-[200] lg:leading-[1.3]' >Near reputed <strong>schools & colleges</strong></p>
@@ -58,7 +63,7 @@ const BannerSection = () => {
                                 <img className='w-[3rem] h-[3rem] mr-[1rem] xl:w-[4rem] xl:h-[4rem] xl:mr-[1.5rem] 3xl:w-[5.5rem] 3xl:h-[5.5rem] 3xl:mr-[2rem] object-contain' src="/images/dp-banner-icon-4.png" alt="" />
                                 <p className='max-[1023px]:text-[1.4rem] f-24 font-[300] lg:font-[200] lg:leading-[1.3]' >Surrounded by <strong>major landmarks</strong></p>
                             </li>
-                        </ul>
+                        </ul> */}
 
                     </div>
                 </div>

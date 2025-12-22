@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,19 +35,22 @@ const BannerSection = () => {
           >
             <div className="text-box text-white text-center lg:text-start lg:w-[50%]">
               <p className="max-[1023px]:text-[1.5rem] f-22 mb-[0.8rem] font-[200]">
-                A new chapter in luxury living
+                From the House of Big Boy Toyz
               </p>
 
               <h1 className="h1 font-[200] tracking-[-0.2rem] leading-[1.2]">
-                Discover signature spaces <strong>by bbt realty.</strong>
+                Signature Spaces for an <strong>Elevated Lifestyle</strong>
               </h1>
             </div>
 
-           <div className="icon-box mt-[3.5rem]">
-              <img
+            <div className="icon-box mt-[3.5rem] flex justify-center">
+              <Image
                 src="/images/bbtr-h-down-arrow.webp"
-                alt="Banner Icon"
-                className="object-contain w-[8rem] lg:w-[9rem] xl:w-[11rem] 1xl:w-[13rem] 3xl:w-[17rem] mx-auto hover:scale-[1.1] cursor-pointer"
+                alt="Scroll Down"
+                width={272}
+                height={272}
+                priority
+                className="object-contain w-[8rem] lg:w-[9rem] xl:w-[11rem] 1xl:w-[13rem] 3xl:w-[17rem] hover:scale-[1.1] cursor-pointer transition-transform duration-300"
                 onClick={() => {
                   window.scrollTo({
                     top: window.innerHeight * 1.15,
@@ -57,7 +61,6 @@ const BannerSection = () => {
             </div>
 
           </div>
-
         </div>
       </div>
     </section>

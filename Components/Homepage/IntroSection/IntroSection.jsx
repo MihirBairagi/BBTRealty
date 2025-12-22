@@ -91,15 +91,15 @@ function IntroSection() {
                                 <ul className="flex items-center gap-[1.2rem] 1xl:gap-[1.8rem]">
                                     <li className='bg-[#F3F3F3] w-[31.5%] p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]' >
                                         <p className='max-[1023px]:text-[2.2rem] h3 font-[500]' >04</p>
-                                        <p className='max-[1023px]:text-[1.4rem] f-24 leading-[1.3] mt-[1rem] font-[300]' > <strong>Projects</strong> Across India</p>
+                                        <p className='max-[1023px]:text-[1.4rem] f-24 tracking-[-0.05rem] lg:tracking-normal xl:tracking-tight leading-[1.3] mt-[1rem] font-[300]' > <strong>Landmark Projects</strong> Across India</p>
                                     </li>
                                     <li className='bg-[#F3F3F3] w-[31.5%] p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]' >
                                         <p className='max-[1023px]:text-[2.2rem] h3 font-[500]' >15+</p>
-                                        <p className='max-[1023px]:text-[1.4rem] f-24 leading-[1.3] mt-[1rem] font-[300]' >Combined <strong>Portfolio</strong></p>
+                                        <p className='max-[1023px]:text-[1.4rem] f-24 tracking-[-0.05rem] lg:tracking-normal xl:tracking-tight leading-[1.3] mt-[1rem] font-[300]' >Acres Curated Real Estate <strong>Portfolio</strong></p>
                                     </li>
                                     <li className='bg-[#F3F3F3] w-[31.5%] p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]' >
                                         <p className='max-[1023px]:text-[2.2rem] h3 font-[500]' >100%</p>
-                                        <p className='max-[1023px]:text-[1.4rem] f-24 leading-[1.3] mt-[1rem] font-[300]' > <strong>Quality</strong> Commitment</p>
+                                        <p className='max-[1023px]:text-[1.4rem] f-24 tracking-[-0.05rem] lg:tracking-normal xl:tracking-tight leading-[1.3] mt-[1rem] font-[300]' > Commitment <br /> <strong>to Quality & Trust</strong></p>
                                     </li>
                                 </ul>
                             </div>
@@ -143,7 +143,7 @@ function IntroSection() {
                             </div>
                         </div>
                        <div className="text lg:w-[55%]">
-                            <p className='para font-[300]' >Pavilion brings refined architecture, spacious residences, and curated lifestyle amenities together—offering a luxury community designed for comfort, privacy, and elevated everyday living.</p>
+                            <p className='para font-[300]' >Crafted as Vadodara’s most refined residential address, Pavilion brings together elegant architecture, expansive residences, and thoughtfully curated lifestyle amenities—designed for comfort, privacy, and elevated everyday living.</p>
                        </div>
                         <div className="btn-box hidden lg:block">
                             <Link href="/detail-page" className='com-btn'>
@@ -159,27 +159,27 @@ function IntroSection() {
                             <ul className='flex flex-wrap items-center gap-y-[3rem]' >
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-1.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3]' > 2 & 3 BHK Luxury Residences</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Spacious<br/> 2 & 3 BHK Luxury Residences</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-2.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3]' > 3 & 4 BHK Duplex Penthouses</p>
-                                </li>   
-                                <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
-                                    <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-3.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3]' > Courtyard Green Zones</p>
-                                </li>   
-                                <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
-                                    <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-4.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3]' > Swimming Pool with Deck</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Limited-Edition 3 & 4 BHK Duplex Penthouses</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-5.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3]' > Sky Club with Cinematic Views</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Sky Club with Panoramic City Views</p>
+                                </li>   
+                                <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
+                                    <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-4.webp" alt="" />
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Vadodara’s <br/>Largest Swimming Pool</p>
+                                </li>   
+                                <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
+                                    <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-3.webp" alt="" />
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Courtyard Greens & Open Community Planning</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-6.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3]' > 24/7 Security & Surveillance</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > 24/7 Security with Quality-Assured Construction</p>
                                 </li>   
                             </ul>
                         </div>

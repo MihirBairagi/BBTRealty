@@ -191,9 +191,9 @@ function OfferingSection() {
             >
                 <div className="text-box lg:w-[47%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem] lg:text-[#6C6C6C]' >OUR OFFERING</p>
-                        <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >The ultimate address of <strong>sophistication &  superlative lifestyle.</strong></h2>
+                        <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >Refined living, <strong>thoughtfully designed.</strong></h2>
 
-                        <p className='para mt-[2rem]' >Each tower at Pavilion by Big Boy Toyz is a statement of luxury, offering exquisitely designed residences and penthouses that redefine modern living. With expansive layouts, panoramic views, and premium finishes, every home is crafted to deliver an unmatched lifestyle of comfort, elegance, and exclusivity.</p>
+                        <p className='para mt-[2rem]' >Pavilion is built around intelligent planning, enduring quality, and everyday comfort. From well-proportioned residences to carefully selected amenities, every element is designed to elevate how you live—today and for years to come.</p>
 
                         <div className="items-center flex mt-[2rem] lg:mt-[3rem]">
                             <div className="flex items-center bg-[#E5E5E5] p-[1rem] rounded-[0.5rem] 3xl:-[1.4rem] mr-[1rem] 3xl:mr-[2rem]">
@@ -202,7 +202,7 @@ function OfferingSection() {
                             </div>
                             <div className="flex items-center bg-[#E5E5E5] p-[1rem] rounded-[0.5rem]">
                                 <img className='mr-[0.6rem] w-[1.6rem] lg:w-[1.5rem] 3xl:w-[2.2rem]' src="/images/a-intro-green-check.png" alt="" />
-                                <p className='max-[1023px]:text-[1.15rem] para lg:font-[500]' >Approved Building Plan</p>
+                                <p className='max-[1023px]:text-[1.15rem] para lg:font-[500]' >Designed for Long-Term Living</p>
                             </div>
                         </div>                     
                 </div>
@@ -210,20 +210,32 @@ function OfferingSection() {
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem] lg:text-[#6C6C6C]' >The Promise</p>
                         <ul>
                             <li className='flex items-center mt-[1.2rem] pt-[1.2rem] lg:pt-[1.5rem] lg:mt-[1.5rem] border-t last:border-b last:pb-[1.5rem] border-[#D9D9D9] xl:pt-[1.8rem] xl:mt-[1.8rem] 3xl:pt-[2.2rem] 3xl:mt-[2.2rem]' >
-                                <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-1.png" alt="" />
-                                <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Engineered & thoughtful layouts</p>
+                                    <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-1.png" alt="" />
+                                    <div className="text">
+                                        <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Engineered layouts that maximise space</p>
+                                        <p className='para mt-[0.6rem]' > Homes designed for natural light, airflow, and efficient movement.</p>
+                                    </div>
                             </li>
                              <li className='flex items-center mt-[1.2rem] pt-[1.2rem] lg:pt-[1.5rem] lg:mt-[1.5rem] border-t last:border-b last:pb-[1.5rem] border-[#D9D9D9] xl:pt-[1.8rem] xl:mt-[1.8rem] 3xl:pt-[2.2rem] 3xl:mt-[2.2rem]' >
-                                <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-2.png" alt="" />
-                                <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Premium amenities for comfort</p>
+                                    <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-2.png" alt="" />
+                                    <div className="text">
+                                        <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Curated amenities for everyday comfort</p>
+                                        <p className='para mt-[0.6rem]' >  Spaces that support relaxation, wellness, and community living.</p>
+                                    </div>
                             </li>
                              <li className='flex items-center mt-[1.2rem] pt-[1.2rem] lg:pt-[1.5rem] lg:mt-[1.5rem] border-t last:border-b last:pb-[1.5rem] border-[#D9D9D9] xl:pt-[1.8rem] xl:mt-[1.8rem] 3xl:pt-[2.2rem] 3xl:mt-[2.2rem]' >
-                                <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-3.png" alt="" />
-                                <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Quality infra with promise of durability</p>
+                                    <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-3.png" alt="" />
+                                    <div className="text">
+                                        <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Built with long-term quality in mind</p>
+                                        <p className='para mt-[0.6rem]' >Strong construction standards with attention to durability and detail.</p>
+                                    </div>
                             </li>
                              <li className='flex items-center mt-[1.2rem] pt-[1.2rem] lg:pt-[1.5rem] lg:mt-[1.5rem] border-t last:border-b last:pb-[1.5rem] border-[#D9D9D9] xl:pt-[1.8rem] xl:mt-[1.8rem] 3xl:pt-[2.2rem] 3xl:mt-[2.2rem]' >
-                                <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-4.png" alt="" />
-                                <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Crated to suit every-stage of life</p>
+                                    <img className='mr-[1.5rem] w-[4rem] lg:w-[3.5rem] object-contain xl:w-[3.8rem] 3xl:w-[5rem] 3xl:mr-[2.5rem]' src="/images/cd-offer-4.png" alt="" />
+                                    <div className="text">
+                                        <p className='max-[1023px]:text-[1.7rem] f-26 font-medium lg:font-[400]' >Designed for every stage of life</p>
+                                        <p className='para mt-[0.6rem]' > A balanced environment suitable for families, professionals, and future needs.</p>
+                                    </div>
                             </li>
                         </ul>
 
@@ -246,25 +258,25 @@ function OfferingSection() {
             <div className="flex flex-wrap lg:justify-between">
                 <div className="lg:w-[48%]">
                     <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >HIGHLIGHT FEATURES</p>
-                    <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1.5rem]' >A promise of <strong>premiuness</strong> and <strong>timeless excellence.</strong></h2>
-                    <p className='para lg:w-[80%]' >Discover smart, stylish living with spacious layouts, premium finishes, airy balconies, and vastu-aligned design—crafted to elevate comfort, convenience, and modern family lifestyles across every home type.</p>
+                    <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1.5rem]' >A promise of <strong>considered design</strong> and <strong>lasting quality.</strong></h2>
+                    <p className='para lg:w-[80%]' >Every residence at Pavilion is thoughtfully planned with an emphasis on natural light, ventilation, spatial balance, and enduring materials—ensuring homes that feel refined today and relevant tomorrow.</p>
 
                     <ul className='flex items-center flex-wrap justify-between mt-[3rem]' >
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-1.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Vastu-friendly planning</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Vastu-Aligned Spatial Planning</p>
                         </li>
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-2.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Aluminium windows & ventilators</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Abundant Natural Light & Airflow</p>
                         </li>
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-3.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Standard sanitary. plumbing & electrical fittings</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Optimised Room Proportions</p>
                         </li>
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-4.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Thoughtfully Planned Spaces</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Spacious Balconies & Open Views</p>
                         </li>
                         
                     </ul>
@@ -273,19 +285,19 @@ function OfferingSection() {
                     <ul className='flex items-center flex-wrap justify-between' >
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-1.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Vastu-friendly planning</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Enhanced Privacy & Acoustic Comfort</p>
                         </li>
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-2.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Aluminium windows & ventilators</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Robust Plumbing & Electrical Infrastructure</p>
                         </li>
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-3.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Standard sanitary. plumbing & electrical fittings</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Durable Materials & Timeless Finishes</p>
                         </li>
                         <li className='px-[1rem] py-[3rem] h-full border border-[#5d5d5da2] mt-[1.5rem] rounded-[1rem] w-[48%] h-fill-available flex justify-center flex-col lg:w-[47%] lg:min-h-[18rem] lg:mt-[2.8rem] xl:mt-[3.2rem] xl:min-h-[24rem] 3xl:min-h-[34rem] 3xl:mt-[4.5rem]' >
                             <img className='w-[4rem] mb-[2rem] mx-auto xl:w-[5.5rem] ' src="/images/dp-feature-icon-4.webp" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Thoughtfully Planned Spaces</p>
+                            <p className='max-[1023px]:text-[1.7rem] f-26 text-center font-[300] leading-[1.4]' >Designed for Every Stage of Life</p>
                         </li>
                     </ul>
                     <div className="mt-[4rem] mb-[2.5rem] border-l-[0.3rem] border-[#7C7C7C] pl-[3rem] lg:mb-[0]"
@@ -293,10 +305,8 @@ function OfferingSection() {
                         data-aos-easing="linear"
                         data-aos-duration="500"
                     >
-                        <h3 className='max-[1023px]:text-[2.5rem] mb-[2rem] font-[300] lg:leading-[1.3] lg:tracking-tighter 3xl:text-[3.5rem]' >“We create timeless spaces where luxury, comfort, and extraordinary living come together seamlessly.”</h3>
-                        <a target='_blank' href="https://www.bigboytoyz.com/" >
-                            <p className='max-[1023px]:text-[1.6rem] f-24 text-[#959595]' >@bigboytoyz_india</p>
-                        </a>
+                        <h3 className='max-[1023px]:text-[2.5rem] mb-[2rem] font-[300] lg:leading-[1.3] lg:tracking-tighter 3xl:text-[3.5rem]' >“Great homes are not defined by luxury alone, but by how effortlessly they fit into everyday life.”</h3>
+                        <p className='max-[1023px]:text-[1.6rem] f-24 text-[#959595]' >— Pavilion by BBT Realty</p>
                     </div>
                 </div>
             </div>
@@ -311,8 +321,8 @@ function OfferingSection() {
                 data-aos-duration="500"
             >
                 <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Gallery </p>
-                <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem]' ><strong>Gallery </strong>of the project pavilion</h2>
-                <p className='para' >Explore stunning visuals showcasing Pavilion’s architecture, lifestyle, interiors, and amenities crafted for elevated modern living.</p>
+                <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem]' >A closer look at life <strong>inside Pavilion</strong></h2>
+                <p className='para' >A visual walkthrough of Pavilion’s architecture, interiors, and lifestyle amenities.</p>
                 <ul className='flex flex-wrap gap-[1.5rem] lg:gap-y-[2.2rem] lg:gap-x-[2.5%] mt-[4rem] 3xl:gap-y-[3.5rem] 3xl:mt-[5rem]' >
                     <li className='w-[100%]' >        
                         <img className='rounded-[1.5rem] w-full' src="/images/db-gallery-1.webp" alt="" />
@@ -516,7 +526,7 @@ function OfferingSection() {
             <div className="lg:flex lg:items-center text-center lg:text-start lg:justify-between">
                 <div className="mb-[1.5rem] lg:w-[40%]">
                     <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >Project AMENITIES</p>
-                    <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >Amenities at pavilion <strong>the experience in millions.</strong></h2>
+                    <h2 className='font-[300] leading-[1.2] tracking-[-0.2rem]' >Spaces curated for <strong>comfort, community, and everyday living.</strong></h2>
                 </div>
                 <p className='para lg:w-[30%]' >Crafted with precision and high-grade materials, these specifications ensure durability, comfort, safety, and a refined living experience across every corner of your home.</p>
             </div>
@@ -708,16 +718,16 @@ function OfferingSection() {
                     </div>
                     <div className='lg:flex lg:items-center' >
                         <div>
-                            <p className='max-[1023px]:text-[2rem] f-26 font-medium tracking-[-0.1rem] lg:tracking-[0] mb-[1rem]' >Schedule a visit today!</p>
+                            <p className='max-[1023px]:text-[2rem] f-26 font-medium tracking-[-0.1rem] lg:tracking-[0] mb-[1rem]' >Plan a private walkthrough</p>
                             <div className="flex flex-col lg:flex-row">
                                 <p className='max-[1023px]:text-[1.4rem] f-24 text-[#808080] flex pb-[0.8rem] mb-[0.8rem] lg:pb-0 lg:mb-0 3xl:px-[2rem]'>
-                                    12 sloths remaining 
+                                    Limited visit slots available
                                 </p>
                             </div>
                         </div>
                         <div className='lg:ml-[3rem] 3xl:ml-[4.5rem]' >
                             <Link href="" className='max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn bg-black text-white border-[white] font-normal justify-center' >
-                                Share Details
+                                Request Visit
                             </Link>
                         </div>
                     </div>
