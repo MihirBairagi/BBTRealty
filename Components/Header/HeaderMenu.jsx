@@ -39,7 +39,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
           />
         </span>
 
-        <div className="menu-wrapper h-full overflow-y-auto max-h-[100vh] no-scrollbar pb-[100px]">
+        <div className="menu-wrapper h-full overflow-y-auto max-h-[100vh] no-scrollbar pb-[160px]">
           <div className="primary-menu-box xl:pt-[30px]">
             <ul className="primary-menu">
               <li className="my-[5px]">

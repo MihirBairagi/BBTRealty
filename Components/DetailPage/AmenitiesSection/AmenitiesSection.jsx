@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import Link from "next/link";
 
 import AmenitiesSlider from "./AmenitiesSlider";
-import { amenitiesTabs, lifestyleAmenities, communityAmenities } from "../../../public/data/dummyData";
+import { amenitiesTabs, lifestyleAmenities, communityAmenities, fitnessAmenities, infraAmenities, saftyAmenities } from "../../../public/data/dummyData";
 
 export default function AmenitiesSection() {
   const [activeAmenities, setActiveAmenities] = useState("amenities1");
@@ -18,6 +18,7 @@ export default function AmenitiesSection() {
     <section
       className="py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-white overflow-x-hidden"
       data-aos="fade-up"
+      id="amenities-scroll"
     >
       <div className="container dp-pro-mob">
         <div className="lg:flex lg:items-center text-center lg:text-start lg:justify-between ">
@@ -53,6 +54,15 @@ export default function AmenitiesSection() {
         )}
         {activeAmenities === "amenities2" && (
           <AmenitiesSlider data={communityAmenities} />
+        )}
+        {activeAmenities === "amenities3" && (
+          <AmenitiesSlider data={fitnessAmenities} />
+        )}
+        {activeAmenities === "amenities4" && (
+          <AmenitiesSlider data={infraAmenities} />
+        )}
+        {activeAmenities === "amenities5" && (
+          <AmenitiesSlider data={saftyAmenities} />
         )}
 
         <div className="flex items-center justify-center w-max bg-[#161616] rounded-[3rem] py-[1.5rem] px-[3rem] mt-[5rem] mx-auto text-white lg:rounded-full lg:py-[2rem] 3xl:p-[4rem] 3xl:mt-[7rem]">

@@ -3,7 +3,7 @@ import React from "react";
 
 const FooterCopyRight = () => {
   return (
-    <div className="py-20 text-zinc-400 sm:text-center lg:flex lg:flex-wrap lg:text-left lg:items-center lg:justify-between lg:py-14 3xl:py-24">
+    <div className="pt-20 pb-[10rem] text-zinc-400 sm:text-center lg:flex lg:flex-wrap lg:text-left lg:items-center lg:justify-between lg:py-14 3xl:py-24">
       <div className="block lg:flex items-center">
         <p className="mb-4 text-2xl lg:text-lg lg:mb-0 3xl:text-1.6xl">Copyright ©{new Date().getFullYear()} Big Boy Toyz</p>
         <ul className="hidden lg:flex items-center ml-5 footerPrivacyMenu">

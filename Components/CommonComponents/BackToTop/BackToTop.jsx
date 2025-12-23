@@ -27,7 +27,7 @@ const BackToTop = () => {
   }, []);
   return (
     <div
-      className={`fixed bottom-[5rem] sm:bottom-[5rem] right-[3rem] w-[4rem] h-[4rem] rounded-[0.5rem] bg-[#EE3024] justify-center items-center p-[1rem] lg:w-[5rem] lg:h-[5rem] lg:p-[1.3rem] 3xl:w-[6.3rem] 3xl:h-[6.3rem] 3xl:p-[1.5rem] 3xl:bottom-[6rem] 3xl:right-[4rem] transition-all duration-500 ease-in-out z-50 cursor-pointer hover:bg-[#e1594d] back-to-top ${
+      className={`fixed bottom-[9rem] right-[3rem] w-[4rem] h-[4rem] rounded-[0.5rem] bg-[#EE3024] justify-center items-center p-[1rem] lg:w-[5rem] lg:h-[5rem] lg:p-[1.3rem] 3xl:w-[6.3rem] 3xl:h-[6.3rem] 3xl:p-[1.5rem] 3xl:bottom-[6rem] 3xl:right-[4rem] transition-all duration-500 ease-in-out z-50 cursor-pointer hover:bg-[#e1594d] back-to-top ${
         visible ? "flex opacity-100" : "hidden opacity-0"
       }`}
       onClick={scrollToTop}

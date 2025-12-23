@@ -28,7 +28,7 @@ const BannerSection = () => {
                         <p className="para mt-[0.5rem] lg:w-[60%] lg:mx-auto" >Thoughtfully designed residences, expansive layouts, and curated lifestyle amenities come together to create one of Vadodara’s most distinguished residential communities.</p>
                         <div className="mt-[3.5rem] lg:mt-[3rem] lg:mb-[5rem] xl:mb-[8rem] 1xl:mb-[12rem] flex items-center justify-center " >
                             <Link className="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn border-transparent font-normal justify-center px-[3rem] lg:px-[4rem]" href="">Enquire Now</Link>
-                            <Link className="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn border-transparent font-normal justify-center ml-[1.5rem] px-[3rem] lg:px-[4rem]" href="">Explore the Lifestyle</Link>
+                            <a className="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn border-transparent font-normal justify-center ml-[1.5rem] px-[3rem] lg:px-[4rem]" href="#amenities-scroll">Explore the Lifestyle</a>
                         </div>
                         <div className="mt-[2.5rem] lg:w-max ml-auto hidden lg:block">
                            <div className="img-box relative flex items-center justify-end">

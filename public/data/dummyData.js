@@ -1489,10 +1489,26 @@ export const lifestyleAmenities = [
   { img: "/images/dp-life-6.webp", title: "Sky Club with Cinematic Views" },
 ];
 export const communityAmenities = [
-  { img: "/images/dp-project-1-.webp", title: "Swimming Pool" },
-  { img: "/images/dp-life-2.webp", title: "Club House" },
-  { img: "/images/dp-life-3.webp", title: "Landscaped Courtyard Gardens" },
-  { img: "/images/dp-life-4.webp", title: "Party Lawns" },
-  { img: "/images/dp-life-5.webp", title: "Gazebo with Promenade Seating" },
-  { img: "/images/dp-life-6.webp", title: "Sky Club with Cinematic Views" },
+  { img: "/images/dp-spaces-1.webp", title: "Clubhouse & Multipurpose Hall" },
+  { img: "/images/dp-spaces-2.webp", title: "Open-Air Cafeteria" },
+  { img: "/images/dp-spaces-3.webp", title: "Community Coffee Shop" },
+  { img: "/images/dp-spaces-4.webp", title: "Mandir Within the Community" },
+  { img: "/images/dp-spaces-5.webp", title: "Senior Citizen Sit-Out Areas" },
+];
+export const fitnessAmenities = [
+  { img: "/images/dp-fit-1.webp", title: "Fully Equipped AC Gymnasium" },
+  { img: "/images/dp-fit-2.webp", title: "Steam, Sauna & Jacuzzi" },
+  { img: "/images/dp-fit-3.webp", title: "Walking & Jogging Track" },
+  { img: "/images/dp-fit-4.webp", title: "Serene Green Surroundings" },
+];
+export const infraAmenities = [
+  { img: "/images/dp-infra-1.webp", title: "Internal RCC Roads" },
+  { img: "/images/dp-infra-2.webp", title: "Spacious Parking Facilities" },
+  { img: "/images/dp-infra-3.webp", title: "Dedicated Parking" },
+  { img: "/images/dp-infra-4.webp", title: "RO System in Each Unit" },
+  { img: "/images/dp-infra-5.webp", title: "24-Hour Power Backup" },
+];
+export const saftyAmenities = [
+  { img: "/images/dp-safty-1.webp", title: "24/7 CCTV Surveillance" },
+  { img: "/images/dp-safty-2.webp", title: "Round-the-Clock Security" },
 ];
