@@ -1635,7 +1635,7 @@ img,
     left: auto;
     right: 0;
     bottom: auto;
-    top: 0%;
+    top: 50%;
 }
 .realtime-slider-arrow.slick-prev {
     width: 52.5%;
@@ -1671,21 +1671,26 @@ img,
     top: 50%;
     bottom: auto;
     transform: translateY(-50%) rotate(180deg);
-
+}
+.pro-desk-slider-arrow:before {
+    display: none;
 }
 .dp-pro-mob ul.slick-dots {
     position: absolute;
-    bottom: 0%;
+    bottom: -3rem;
     display: flex !important;
     justify-content: center;
     align-items: center;
     width: 100%;
+    list-style: none;
 }
 .dp-pro-mob .slick-list {
     margin-bottom: 3rem;
 }
 .dp-pro-mob ul.slick-dots li {
     margin: 0 0.5rem;
+    width: auto;
+    height: auto;
 }
 .dp-pro-mob ul.slick-dots li button {
     font-size: 0;
@@ -1697,6 +1702,10 @@ img,
 }
 .dp-pro-mob ul.slick-dots li.slick-active button {
   background: transparent;
+}
+
+.dp-pro-mob ul.slick-dots li button::before{
+  opacity: 0;
 }
 
 .cd-realtive-arrow::after{
@@ -1956,7 +1965,7 @@ img,
   }
 
   .com-toggle-btn{
-    @apply max-[1023px]:text-[1.3rem] f-28  font-normal h-[3.8rem] px-[2rem] lg:px-[3.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[5rem]  rounded-[5rem] flex items-center justify-center w-max border bg-white text-black border-[#C2C2C2]
+    @apply max-[1023px]:text-[1.3rem] f-28  font-normal h-[3.8rem] px-[2rem] lg:px-[2.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[5rem]  rounded-[5rem] flex items-center justify-center w-max border bg-white text-black border-[#C2C2C2]
   }
   
   .btn-arrow{

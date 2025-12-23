@@ -1471,3 +1471,28 @@ export const states = [
   "Uttarakhand",
   "West Bengal"
 ];
+
+export const amenitiesTabs = [
+  { id: "amenities1", label: "Lifestyle" },
+  { id: "amenities2", label: "Community Spaces" },
+  { id: "amenities3", label: "Wellness & Fitness" },
+  { id: "amenities4", label: "Infrastructure" },
+  { id: "amenities5", label: "Safety & Security" },
+];
+
+export const lifestyleAmenities = [
+  { img: "/images/dp-project-1-.webp", title: "Swimming Pool" },
+  { img: "/images/dp-life-2.webp", title: "Club House" },
+  { img: "/images/dp-life-3.webp", title: "Landscaped Courtyard Gardens" },
+  { img: "/images/dp-life-4.webp", title: "Party Lawns" },
+  { img: "/images/dp-life-5.webp", title: "Gazebo with Promenade Seating" },
+  { img: "/images/dp-life-6.webp", title: "Sky Club with Cinematic Views" },
+];
+export const communityAmenities = [
+  { img: "/images/dp-project-1-.webp", title: "Swimming Pool" },
+  { img: "/images/dp-life-2.webp", title: "Club House" },
+  { img: "/images/dp-life-3.webp", title: "Landscaped Courtyard Gardens" },
+  { img: "/images/dp-life-4.webp", title: "Party Lawns" },
+  { img: "/images/dp-life-5.webp", title: "Gazebo with Promenade Seating" },
+  { img: "/images/dp-life-6.webp", title: "Sky Club with Cinematic Views" },
+];

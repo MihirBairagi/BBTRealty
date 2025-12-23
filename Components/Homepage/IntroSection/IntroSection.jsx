@@ -91,15 +91,15 @@ function IntroSection() {
                                 <ul className="flex items-center gap-[1.2rem] 1xl:gap-[1.8rem]">
                                     <li className='bg-[#F3F3F3] w-[31.5%] p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]' >
                                         <p className='max-[1023px]:text-[2.2rem] h3 font-[500]' >04</p>
-                                        <p className='max-[1023px]:text-[1.4rem] f-24 tracking-[-0.05rem] lg:tracking-normal xl:tracking-tight leading-[1.3] mt-[1rem] font-[300]' > <strong>Landmark Projects</strong> Across India</p>
+                                        <p className='max-[1023px]:text-[1.4rem] f-24 leading-[1.3] mt-[1rem] font-[300]' > <strong>Projects</strong> Across India</p>
                                     </li>
                                     <li className='bg-[#F3F3F3] w-[31.5%] p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]' >
                                         <p className='max-[1023px]:text-[2.2rem] h3 font-[500]' >15+</p>
-                                        <p className='max-[1023px]:text-[1.4rem] f-24 tracking-[-0.05rem] lg:tracking-normal xl:tracking-tight leading-[1.3] mt-[1rem] font-[300]' >Acres Curated Real Estate <strong>Portfolio</strong></p>
+                                        <p className='max-[1023px]:text-[1.4rem] f-24 leading-[1.3] mt-[1rem] font-[300]' >Combined <strong>Portfolio</strong></p>
                                     </li>
                                     <li className='bg-[#F3F3F3] w-[31.5%] p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]' >
                                         <p className='max-[1023px]:text-[2.2rem] h3 font-[500]' >100%</p>
-                                        <p className='max-[1023px]:text-[1.4rem] f-24 tracking-[-0.05rem] lg:tracking-normal xl:tracking-tight leading-[1.3] mt-[1rem] font-[300]' > Commitment <br /> <strong>to Quality & Trust</strong></p>
+                                        <p className='max-[1023px]:text-[1.4rem] f-24 leading-[1.3] mt-[1rem] font-[300]' > <strong>Quality </strong>Commitment</p>
                                     </li>
                                 </ul>
                             </div>
@@ -159,27 +159,27 @@ function IntroSection() {
                             <ul className='flex flex-wrap items-center gap-y-[3rem]' >
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-1.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Spacious<br/> 2 & 3 BHK Luxury Residences</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Spacious 2 & 3 BHK Luxury Residences</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-2.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Limited-Edition 3 & 4 BHK Duplex Penthouses</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Exclusive 3-4 BHK Duplex Penthouse</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-5.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Sky Club with Panoramic City Views</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Sky Club & Panoramic Views</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-4.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Vadodara’s <br/>Largest Swimming Pool</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Vadodara’s Largest Pool</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-3.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Courtyard Greens & Open Community Planning</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > Courtyard Greens & Open Planning</p>
                                 </li>   
                                 <li className='border-l border-[#676767] w-[33.33%] lg:w-[16.6%] pl-[2rem] pr-[1rem] 1xl:pl-[2.5rem] ' >        
                                     <img className='mb-[2rem] w-[3.5rem] h-[3.5rem] object-contain 1xl:w-[4.6rem] 1xl:h-[4.6rem] 1xl:mb-[2.5rem]' src="/images/h-pro-pav-6.webp" alt="" />
-                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > 24/7 Security with Quality-Assured Construction</p>
+                                    <p className='max-[1023px]:text-[1.2rem] f-24 font-[300] leading-[1.3] lg:tracking-[-0.04rem]' > 24/7 Secure, Quality-Assured</p>
                                 </li>   
                             </ul>
                         </div>
@@ -249,7 +249,7 @@ function IntroSection() {
                                     <div className="lg:hidden relative">
                                         <img
                                         className="mobile-img rounded-[1rem] w-full"
-                                        src="/images/h-pro-slider-mob-1.webp"
+                                        src="/images/h-pro-slider-mob-2.webp"
                                         alt=""
                                         />
 
@@ -286,7 +286,7 @@ function IntroSection() {
                                     <div className="lg:hidden relative">
                                         <img
                                         className="mobile-img rounded-[1rem] w-full"
-                                        src="/images/h-pro-slider-mob-1.webp"
+                                        src="/images/h-pro-slider-mob-3.webp"
                                         alt=""
                                         />
 
@@ -323,7 +323,7 @@ function IntroSection() {
                                     <div className="lg:hidden relative">
                                         <img
                                         className="mobile-img rounded-[1rem] w-full"
-                                        src="/images/h-pro-slider-mob-1.webp"
+                                        src="/images/h-pro-slider-mob-4.webp"
                                         alt=""
                                         />
 
@@ -360,7 +360,7 @@ function IntroSection() {
                                     <div className="lg:hidden relative">
                                         <img
                                         className="mobile-img rounded-[1rem] w-full"
-                                        src="/images/h-pro-slider-mob-1.webp"
+                                        src="/images/h-pro-slider-mob-5.webp"
                                         alt=""
                                         />
 
@@ -374,6 +374,81 @@ function IntroSection() {
                                         />
                                     </div>
                                 </li>
+                                <li className="relative">
+                                    {/* Desktop image */}
+                                    <div className="hidden lg:block relative">
+                                        <img
+                                        className="desktop-img rounded-[2rem] w-full"
+                                        src="/images/h-pro-slider-7.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[2rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+
+                                    {/* Mobile image */}
+                                    <div className="lg:hidden relative">
+                                        <img
+                                        className="mobile-img rounded-[1rem] w-full"
+                                        src="/images/h-pro-slider-mob-7.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[1rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+                                </li>
+                                <li className="relative">
+                                    {/* Desktop image */}
+                                    <div className="hidden lg:block relative">
+                                        <img
+                                        className="desktop-img rounded-[2rem] w-full"
+                                        src="/images/h-pro-slider-8.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[2rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+
+                                    {/* Mobile image */}
+                                    <div className="lg:hidden relative">
+                                        <img
+                                        className="mobile-img rounded-[1rem] w-full"
+                                        src="/images/h-pro-slider-mob-8.webp"
+                                        alt=""
+                                        />
+
+                                        {/* Gradient overlay */}
+                                        <div
+                                        className="absolute inset-0 rounded-[1rem] pointer-events-none"
+                                        style={{
+                                            background:
+                                            "linear-gradient(180deg, rgba(0, 0, 0, 0) 56.74%, #000000 107.54%)",
+                                        }}
+                                        />
+                                    </div>
+                                </li>
+
 
                             </Slider>
                         </div>

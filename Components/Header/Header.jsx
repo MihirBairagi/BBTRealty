@@ -7,7 +7,7 @@ import HeaderMenu from './HeaderMenu';
 
 const styles = {
   menuItem:
-    "text-white relative px-[1rem] uppercase text-sm transition-all ease-in-out duration-300 lg:border-l lg:border-l-[#fff] hover:text-[#CE1921] xl:text-[0.9rem] 1xl:px-[1.5rem] 1xl:text-[1.05rem] 3xl:text-[1.35rem] 2xl:tracking-[0.4px] 3xl:tracking-[0.3px] 3xl:px-[1.9rem]",
+    "text-white relative px-[1rem] uppercase text-sm transition-all ease-in-out duration-300 lg:border-l lg:border-l-[#fff] hover:text-[#DFAD60] xl:text-[0.9rem] 1xl:px-[1.5rem] 1xl:text-[1.05rem] 3xl:text-[1.35rem] 2xl:tracking-[0.4px] 3xl:tracking-[0.3px] 3xl:px-[1.9rem]",
 };
  
 const Header = ({}) => {
@@ -110,7 +110,7 @@ const Header = ({}) => {
                     -translate-x-1/2
                     w-[95%]
                     xl:w-[80%]
-                    bg-black 
+                    bg-[#202020c9]
                     border border-white/20 
                     rounded-[3rem]
                     opacity-0 invisible 
@@ -147,9 +147,8 @@ const Header = ({}) => {
                     </Link>
                   </li>
 
-                  <li className="w-[25%] h-[-webkit-fill-available]" >
-                    <Link
-                      href="/detail-page"
+                  <li className="w-[25%] h-[-webkit-fill-available] grayscale hover:grayscale-0" >
+                    <div
                       className="block p-[1rem] text-white text-sm rounded-[2rem] transition  h-full"
                     >
                       <div className="h-pro-list relative overflow-hidden rounded-[2rem] h-full">
@@ -165,17 +164,19 @@ const Header = ({}) => {
                                     </span>
                                     <p className='para' >Karol Bagh, Delhi</p>
                                 </div>
-                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center'>
+                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center opacity-0'>
                                     View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
                                 </div>
                             </div>
+                            <div className="absolute top-[5%] right-[5%] bg-[#080808] py-4 px-6 rounded-full">
+                              <p className="f-18" >Launching Soon</p>
+                            </div>
                         </div>
-                    </Link>
+                    </div>
                   </li>
 
-                  <li className="w-[25%] h-[-webkit-fill-available]" >
-                    <Link
-                      href="/detail-page"
+                  <li className="w-[25%] h-[-webkit-fill-available] grayscale hover:grayscale-0" >
+                    <div
                       className="block p-[1rem] text-white text-sm rounded-[2rem] transition  h-full"
                     >
                       <div className="h-pro-list relative overflow-hidden rounded-[2rem] h-full">
@@ -191,17 +192,19 @@ const Header = ({}) => {
                                     </span>
                                     <p className='para' >Lucknow</p>
                                 </div>
-                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center'>
+                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center opacity-0'>
                                     View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
                                 </div>
                             </div>
+                            <div className="absolute top-[5%] right-[5%] bg-[#080808] py-4 px-6 rounded-full">
+                              <p className="f-18" >Launching Soon</p>
+                            </div>
                         </div>
-                    </Link>
+                    </div>
                   </li>
 
-                  <li className="w-[25%] h-[-webkit-fill-available]" >
-                    <Link
-                      href="/detail-page"
+                  <li className="w-[25%] h-[-webkit-fill-available] grayscale hover:grayscale-0" >
+                    <div
                       className="block p-[1rem] text-white text-sm rounded-[2rem] transition  h-full"
                     >
                       <div className="h-pro-list relative overflow-hidden rounded-[2rem] h-full">
@@ -217,12 +220,15 @@ const Header = ({}) => {
                                     </span>
                                     <p className='para' >Mandi, Himachal Pradesh</p>
                                 </div>
-                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center'>
+                                <div className='max-[1023px]:text-[1.5rem] f-18 flex items-center opacity-0'>
                                     View Project <span><img className='invert ml-[1rem] lg:w-[1.5rem]' src="/images/h-btn-blk-arrow-.png" alt="" /></span>
                                 </div>
                             </div>
+                            <div className="absolute top-[5%] right-[5%] bg-[#080808] py-4 px-6 rounded-full">
+                              <p className="f-18" >Launching Soon</p>
+                            </div>
                         </div>
-                    </Link>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -230,12 +236,15 @@ const Header = ({}) => {
               <Link href="about-us" className={styles.menuItem}>
                 About Us{" "}
               </Link>
-              <Link href="contact-us" className={styles.menuItem}>
-                Contact Us{" "}
-              </Link>
               <Link href="faq" className={styles.menuItem}>
                 FAQ
               </Link>
+              <Link href="contact-us" className={styles.menuItem}>
+                Contact Us{" "}
+              </Link>
+              <a href="tel:(+91) 99999 990 30" className={styles.menuItem} >
+                (+91) 99999 990 30
+              </a>
 
               {/* <div className="contact items-center hidden lg:flex lg:w-max text-white">
                 <img className='lg:w-[3rem] lg:ml-[1.5rem] xl:ml-[2rem] 1xl:ml-[3rem] lg:mr-[1rem] xl:w-[4rem] 1xl:w-[5.2rem]' src="/images/hp-head-tel.webp" alt="" />
