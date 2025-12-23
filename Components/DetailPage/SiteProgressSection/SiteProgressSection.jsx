@@ -73,35 +73,116 @@ function SiteProgressSection() {
 
             <Slider className='cd-realtive-arrow relative' {...settings} >
                 <div className="px-[1rem] lg:px-[2rem]">
-                    <div className="relative">
-                        <div className="img-box">
-                            <img className='w-full' src="/images/dp-realtime-list-1.webp" alt="" />
+                    <div className="relative overflow-hidden">
+                        <img
+                            className="w-full block"
+                            src="/images/dp-realtime-list-1.webp"
+                            alt=""
+                        />
+                        <div
+                            className="absolute inset-0"
+                            style={{
+                                background:
+                                "linear-gradient(180deg, rgba(0, 0, 0, 0) 47.81%, #000000 100%)",
+                            }}
+                        />
+                        <div className="absolute inset-0 text-white p-[1.5rem] flex items-end xl:p-[3rem]">
+                            <p className="max-[1023px]:text-[1.6rem] f-22">
+                                Current site progress on July 2025
+                            </p>
                         </div>
-                        <div className="absolute text-white w-full h-full p-[1.5rem] bottom-0 left-0 flex items-end xl:p-[3rem]">
-                            <p className='max-[1023px]:text-[1.6rem] f-22' >Current site progress on July 2025</p>
-                        </div>
+
                     </div>
                 </div>
-                <div className="px-[1rem] lg:px-[2rem]">
-                    <div className="relative">
-                        <div className="img-box">
-                            <img className='w-full' src="/images/dp-realtime-list-1.webp" alt="" />
+                 <div className="px-[1rem] lg:px-[2rem]">
+                    <div className="relative overflow-hidden">
+                        <img
+                            className="w-full block"
+                            src="/images/dp-realtime-list-2.webp"
+                            alt=""
+                        />
+                        <div
+                            className="absolute inset-0"
+                            style={{
+                                background:
+                                "linear-gradient(180deg, rgba(0, 0, 0, 0) 47.81%, #000000 100%)",
+                            }}
+                        />
+                        <div className="absolute inset-0 text-white p-[1.5rem] flex items-end xl:p-[3rem]">
+                            <p className="max-[1023px]:text-[1.6rem] f-22">
+                                Current site progress on July 2025
+                            </p>
                         </div>
-                        <div className="absolute text-white w-full h-full p-[1.5rem] bottom-0 left-0 flex items-end xl:p-[3rem]">
-                            <p className='max-[1023px]:text-[1.6rem] f-22' >Current site progress on July 2025</p>
-                        </div>
+
                     </div>
                 </div>
-                <div className="px-[1rem] lg:px-[2rem]">
-                    <div className="relative">
-                        <div className="img-box">
-                            <img className='w-full' src="/images/dp-realtime-list-1.webp" alt="" />
+                 <div className="px-[1rem] lg:px-[2rem]">
+                    <div className="relative overflow-hidden">
+                        <img
+                            className="w-full block"
+                            src="/images/dp-realtime-list-4.webp"
+                            alt=""
+                        />
+                        <div
+                            className="absolute inset-0"
+                            style={{
+                                background:
+                                "linear-gradient(180deg, rgba(0, 0, 0, 0) 47.81%, #000000 100%)",
+                            }}
+                        />
+                        <div className="absolute inset-0 text-white p-[1.5rem] flex items-end xl:p-[3rem]">
+                            <p className="max-[1023px]:text-[1.6rem] f-22">
+                                Current site progress on July 2025
+                            </p>
                         </div>
-                        <div className="absolute text-white w-full h-full p-[1.5rem] bottom-0 left-0 flex items-end xl:p-[3rem]">
-                            <p className='max-[1023px]:text-[1.6rem] f-22' >Current site progress on July 2025</p>
-                        </div>
+
                     </div>
                 </div>
+                 <div className="px-[1rem] lg:px-[2rem]">
+                    <div className="relative overflow-hidden">
+                        <img
+                            className="w-full block"
+                            src="/images/dp-realtime-list-3.webp"
+                            alt=""
+                        />
+                        <div
+                            className="absolute inset-0"
+                            style={{
+                                background:
+                                "linear-gradient(180deg, rgba(0, 0, 0, 0) 47.81%, #000000 100%)",
+                            }}
+                        />
+                        <div className="absolute inset-0 text-white p-[1.5rem] flex items-end xl:p-[3rem]">
+                            <p className="max-[1023px]:text-[1.6rem] f-22">
+                                Current site progress on July 2025
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                 <div className="px-[1rem] lg:px-[2rem]">
+                    <div className="relative overflow-hidden">
+                        <img
+                            className="w-full block"
+                            src="/images/dp-realtime-list-5.webp"
+                            alt=""
+                        />
+                        <div
+                            className="absolute inset-0"
+                            style={{
+                                background:
+                                "linear-gradient(180deg, rgba(0, 0, 0, 0) 47.81%, #000000 100%)",
+                            }}
+                        />
+                        <div className="absolute inset-0 text-white p-[1.5rem] flex items-end xl:p-[3rem]">
+                            <p className="max-[1023px]:text-[1.6rem] f-22">
+                                Current site progress on July 2025
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
             </Slider>
         </div>
     </section>
