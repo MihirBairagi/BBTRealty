@@ -65,26 +65,6 @@ export default function AmenitiesSection() {
           <AmenitiesSlider data={saftyAmenities} />
         )}
 
-        <div className="flex items-center justify-center w-max bg-[#161616] rounded-[3rem] py-[1.5rem] px-[3rem] mt-[5rem] mx-auto text-white lg:rounded-full lg:py-[2rem] 3xl:p-[4rem] 3xl:mt-[7rem]">
-                    <div className="icon-box mr-[2.5rem] ">
-                        <img className='w-[8rem] lg:w-[7rem] 3xl:w-[10rem]' src="/images/dp-proj-dp.webp" alt="" />
-                    </div>
-                    <div className='lg:flex lg:items-center' >
-                        <div>
-                            <p className='max-[1023px]:text-[2rem] f-26 font-medium tracking-[-0.1rem] lg:tracking-[0] mb-[1rem]' >Plan a private walkthrough</p>
-                            <div className="flex flex-col lg:flex-row">
-                                <p className='max-[1023px]:text-[1.4rem] f-24 text-[#808080] flex pb-[0.8rem] mb-[0.8rem] lg:pb-0 lg:mb-0 3xl:px-[2rem]'>
-                                    Limited visit slots available
-                                </p>
-                            </div>
-                        </div>
-                        <div className='lg:ml-[3rem] 3xl:ml-[4.5rem]' >
-                            <Link href="" className='max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn bg-black text-white border-[white] font-normal justify-center' >
-                                Request Visit
-                            </Link>
-                        </div>
-                    </div>
-        </div>
 
       </div>
     </section>

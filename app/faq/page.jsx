@@ -7,8 +7,8 @@ const bannerData = {
   title:`Frequently <br /> <b>Asked questions</b>`,
   description: `  Hello, How we can help`,
   breadcrumb: "FAQ",
-  bannerImage:"/images/c-banner.webp",
-  bannerImageMobile:"/images/c-mob-banner.webp"
+  bannerImage:"/images/faq-banner.webp",
+  bannerImageMobile:"/images/faq-mob-banner.webp"
 }
 
 const Faqs = () => {

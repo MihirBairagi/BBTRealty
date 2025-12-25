@@ -22,7 +22,8 @@ function ContactUs() {
                 >
                     <div className="text-box text-white text-center lg:text-start lg:w-[50%]">
                         <p className='max-[1023px]:text-[1.5rem] f-22 mb-[0.8rem] font-[200]' >Contact Us</p>
-                        <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2]' >Contact <strong>BBt Realty</strong></h1>
+                        <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2]' >Connect with <strong>BBt Realty</strong></h1>
+                        <p className="para mt-[0.8rem]" >Our team is here to assist you with project details, site visits, and personalised guidance</p>
                     </div>
                 </div>
             </div>
@@ -39,8 +40,8 @@ function ContactUs() {
                 <div className="text-box w-[100%] lg:w-[50%]">
                     <div className="head-box">
                         <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem] text-[#6C6C6C]' >Contact Us</p>
-                        <h2 className='h2-big font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem] 3xl:mb-[2rem]' ><strong>Reach out</strong> for more details.</h2>
-                        <p className='para font-[300]' >Contact us anytime for insights, personalized guidance, and clear information tailored to your needs, ensuring confident decisions and strong results.</p>
+                        <h2 className='h2-big font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem] 3xl:mb-[2rem]' ><strong>Reach out</strong> for project details and assistance.</h2>
+                        <p className='para font-[300]' >Our team is available to share project information, site visit details, and personalised guidance—at your convenience.</p>
                     </div>
                     <div className="info-box mt-[1rem]">
                       <div className="flex flex-col-reverse lg:flex-col">
@@ -160,7 +161,8 @@ function ContactUs() {
                     
                   </div>
                   <div className="btn-box w-full lg:w-max mt-[1.5rem] lg:mt-[1rem]">
-                    <a className=' px-[1.5rem] h-[5.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[2rem] 3xl:rounded-[1rem] flex items-center justify-between w-full border border-[#1616165f] rounded-[1rem] lg:rounded-[0.5rem] hover:bg-[#fff] hover:invert' href="">
+                    <a target="_blank" className=' px-[1.5rem] h-[5.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[2rem] 3xl:rounded-[1rem] flex items-center justify-between w-full border border-[#1616165f] rounded-[1rem] lg:rounded-[0.5rem] hover:bg-[#fff] hover:invert' 
+                    href="/pdf/PAVILION BY BBT BROSHURE FULL SIZE  .pdf">
                         <div className="flex w-max items-center">
                             <img className='w-[2rem] mr-[1.5rem] lg:mr-[1rem] lg:w-[1.5rem] 3xl:w-[2.5rem] 3xl:mr-[1.5rem]' src="/images/c-office-pdf.png" alt="" />
                             <p className='max-[1023px]:text-[1.7rem] f-18' >Project Brochure</p>
@@ -175,7 +177,7 @@ function ContactUs() {
                 data-aos-easing="linear"
                 data-aos-duration="500"
               >
-                <div className='mb-[2rem] 3xl:mb-[3rem]' >
+                <div className='mb-[2rem] 3xl:mb-[3rem] launching-soon-tag relative' >
                   <img className='w-full' src="/images/c-office-2.webp" alt="" />
                 </div>
                 <div className="flex flex-wrap justify-between">
@@ -191,15 +193,6 @@ function ContactUs() {
                     </div>
                     
                   </div>
-                  <div className="btn-box w-full lg:w-max mt-[1.5rem] lg:mt-[1rem]">
-                    <a className=' px-[1.5rem] h-[5.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[2rem] 3xl:rounded-[1rem] flex items-center justify-between w-full border border-[#1616165f] rounded-[1rem] lg:rounded-[0.5rem] hover:bg-[#fff] hover:invert' href="">
-                        <div className="flex w-max items-center">
-                            <img className='w-[2rem] mr-[1.5rem] lg:mr-[1rem] lg:w-[1.5rem] 3xl:w-[2.5rem] 3xl:mr-[1.5rem]' src="/images/c-office-pdf.png" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-18' >Project Brochure</p>
-                        </div>
-                        <img className='w-[1.5rem] lg:w-[1rem] lg:ml-[1rem] 3xl:w-[1.5rem] 3xl:ml-[3rem]' src="/images/c-office-down.png" alt="" />
-                    </a>
-                  </div>
                 </div>
               </li>
               <li className='w-full lg:w-[48%] mt-[5rem] lg:even:-mt-[15rem]' 
@@ -207,8 +200,8 @@ function ContactUs() {
                 data-aos-easing="linear"
                 data-aos-duration="500"
               >
-                <div className='mb-[2rem] 3xl:mb-[3rem]' >
-                  <img className='w-full' src="/images/c-office-3.webp" alt="" />
+                <div className='mb-[2rem] 3xl:mb-[3rem] launching-soon-tag relative' >
+                  <img className='w-full' src="/images/c-office-4.webp" alt="" />
                 </div>
                 <div className="flex flex-wrap justify-between">
                   <div className="text w-full lg:w-[60%]">
@@ -223,15 +216,6 @@ function ContactUs() {
                     </div>
                     
                   </div>
-                  <div className="btn-box w-full lg:w-max mt-[1.5rem] lg:mt-[1rem]">
-                    <a className=' px-[1.5rem] h-[5.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[2rem] 3xl:rounded-[1rem] flex items-center justify-between w-full border border-[#1616165f] rounded-[1rem] lg:rounded-[0.5rem] hover:bg-[#fff] hover:invert' href="">
-                        <div className="flex w-max items-center">
-                            <img className='w-[2rem] mr-[1.5rem] lg:mr-[1rem] lg:w-[1.5rem] 3xl:w-[2.5rem] 3xl:mr-[1.5rem]' src="/images/c-office-pdf.png" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-18' >Project Brochure</p>
-                        </div>
-                        <img className='w-[1.5rem] lg:w-[1rem] lg:ml-[1rem] 3xl:w-[1.5rem] 3xl:ml-[3rem]' src="/images/c-office-down.png" alt="" />
-                    </a>
-                  </div>
                 </div>
               </li>
               <li className='w-full lg:w-[48%] mt-[5rem] lg:even:-mt-[15rem]' 
@@ -239,8 +223,8 @@ function ContactUs() {
                 data-aos-easing="linear"
                 data-aos-duration="500"
               >
-                <div className='mb-[2rem] 3xl:mb-[3rem]' >
-                  <img className='w-full' src="/images/c-office-4.webp" alt="" />
+                <div className='mb-[2rem] 3xl:mb-[3rem] launching-soon-tag relative' >
+                  <img className='w-full' src="/images/c-office-3.webp" alt="" />
                 </div>
                 <div className="flex flex-wrap justify-between">
                   <div className="text w-full lg:w-[60%]">
@@ -254,15 +238,6 @@ function ContactUs() {
                         <a className='max-[1023px]:text-[1.6rem] f-20' href="tel:+919999999030:">(+91) 99999 990 30</a>
                     </div>
                     
-                  </div>
-                  <div className="btn-box w-full lg:w-max mt-[1.5rem] lg:mt-[1rem]">
-                    <a className=' px-[1.5rem] h-[5.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[2rem] 3xl:rounded-[1rem] flex items-center justify-between w-full border border-[#1616165f] rounded-[1rem] lg:rounded-[0.5rem] hover:bg-[#fff] hover:invert' href="">
-                        <div className="flex w-max items-center">
-                            <img className='w-[2rem] mr-[1.5rem] lg:mr-[1rem] lg:w-[1.5rem] 3xl:w-[2.5rem] 3xl:mr-[1.5rem]' src="/images/c-office-pdf.png" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-18' >Project Brochure</p>
-                        </div>
-                        <img className='w-[1.5rem] lg:w-[1rem] lg:ml-[1rem] 3xl:w-[1.5rem] 3xl:ml-[3rem]' src="/images/c-office-down.png" alt="" />
-                    </a>
                   </div>
                 </div>
               </li>

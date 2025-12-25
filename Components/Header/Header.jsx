@@ -7,7 +7,7 @@ import HeaderMenu from './HeaderMenu';
 
 const styles = {
   menuItem:
-    "text-white relative px-[1rem] uppercase text-sm transition-all ease-in-out duration-300 lg:border-l lg:border-l-[#fff] hover:text-[#DFAD60] xl:text-[0.9rem] 1xl:px-[1.5rem] 1xl:text-[1.05rem] 3xl:text-[1.35rem] 2xl:tracking-[0.4px] 3xl:tracking-[0.3px] 3xl:px-[1.9rem]",
+    "text-white relative px-[1.5rem] uppercase text-sm transition-all ease-in-out duration-300 lg:border-l lg:border-l-[#fff] hover:text-[#DFAD60] lg:text-[1.2rem] xl:text-[1.3rem] 1xl:px-[1.8rem] 1xl:text-[1.45rem] 3xl:text-[1.8rem] 2xl:tracking-[0.4px] 3xl:tracking-[0.3px] 3xl:px-[2.3rem]",
 };
  
 const Header = ({}) => {
@@ -90,12 +90,12 @@ const Header = ({}) => {
               </Link>
             </div>
             <div
-              className={`lg:flex items-center justify-center header-phone-list hidden lg:order-2 [&>a:last-of-type]:border-r [&>a:last-of-type]:border-r-[#fff]`}
+              className={`lg:flex items-center justify-center header-phone-list hidden lg:order-2`}
             >
              <div className="group">
-                <Link href="#" className={`${styles.menuItem} flex items-center`}>
+                <Link href="#" className={`${styles.menuItem} flex items-center lg:border-l-0`}>
                   Projects
-                  <span className="ml-2 text-xs transition-transform duration-300 group-hover:rotate-180">
+                  <span className="ml-2 text-base transition-transform duration-300 group-hover:rotate-180">
                     ▼
                   </span>
                 </Link>
@@ -155,9 +155,8 @@ const Header = ({}) => {
                             <div className="img-box h-full">
                                 <img className='w-[100%] h-full object-cover' src="/images/h-pro-list-2.webp" alt="" />
                             </div>
-                            <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
+                            <div className="text-box absolute bottom-[-12%] w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
                                 <h4 className="f-22" >BBT ONE</h4>
-                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Coming Soon</h5>
                                 <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
                                     <span>
                                         <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/images/h-pro-location.png" alt="" />
@@ -183,9 +182,8 @@ const Header = ({}) => {
                             <div className="img-box h-full">
                                 <img className='w-[100%] h-full object-cover' src="/images/h-pro-list-3.webp" alt="" />
                             </div>
-                            <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
+                            <div className="text-box absolute bottom-[-12%] w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
                                 <h4 className="f-22" >The Royale Pavilion</h4>
-                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Coming Soon</h5>
                                 <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
                                     <span>
                                         <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/images/h-pro-location.png" alt="" />
@@ -211,9 +209,8 @@ const Header = ({}) => {
                             <div className="img-box h-full">
                                 <img className='w-[100%] h-full object-cover' src="/images/h-sora-img-1.webp" alt="" />
                             </div>
-                            <div className="text-box absolute bottom-[-12%] hover:bottom-0 w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
+                            <div className="text-box absolute bottom-[-12%] w-full h-full flex flex-col justify-end p-[1.5rem] bg-[linear-gradient(180deg,rgba(0,0,0,0)_35.83%,rgba(0,0,0,0.477963)_59.16%,#000_100%)] transition-all">
                                 <h4 className="f-22" >Sora</h4>
-                                <h5 className="f-18 mt-[0.8rem] xl:mt-[1rem] 3xl:mt-[1.5rem] font-normal" >Coming Soon</h5>
                                 <div className="loc flex items-center mt-[1.2rem] mb-[1.5rem] xl:mt-[1.5rem] xl:mb-[2.5rem] 3xl:mt-[1.7rem] 3xl:mb-[3rem]">
                                     <span>
                                         <img className='mr-[1rem] w-[1.5rem] lg:w-[1rem] lg:mr-[0.5rem]' src="/images/h-pro-location.png" alt="" />

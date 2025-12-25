@@ -17,14 +17,14 @@ const BottomSheetMenu = ({ isOpen, onClose }) => {
 
       {/* Bottom Sheet */}
       <div
-        className={`fixed bottom-0 left-0 w-full h-[100vh] bg-black text-white z-100
+        className={`fixed bottom-0 left-0 w-full h-[100%] bg-black text-white z-100
         transition-transform duration-500 ease-in-out
         ${isOpen ? "translate-y-0" : "translate-y-full"}`}
       >
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-12 right-12 w-12 h-12 rounded-full bg-[#1a1a1a] flex items-center justify-center text-[3.8rem]"
+          className="absolute top-12 right-12 w-12 h-12 rounded-full flex items-center justify-center text-[3.8rem]"
         >
           ✕
         </button>
@@ -53,18 +53,18 @@ const BottomSheetMenu = ({ isOpen, onClose }) => {
                 openProjects ? "max-h-72" : "max-h-0"
               }`}
             >
-              <ul className="pl-4 py-2 text-[#d7d6d4]">
+              <ul className="pl-4 py-2 text-[#c8c7c4]">
                 <li className="py-4 ">
-                    <Link href="/detail-page" onClick={onClose}  className="text-[1.6rem]" >Pavilion <span className="uppercase ml-5" >(Launching In FEB)</span></Link>
+                    <Link href="/detail-page" onClick={onClose}  className="text-[1.6rem]" >Pavilion <span className="uppercase" > - Launching In FEB</span></Link>
                 </li>
                 <li className="py-4 ">
-                    <Link href=""  className="text-[1.6rem]" >BBT ONE <span className="uppercase ml-5" >(Coming Soon)</span></Link>
+                    <Link href=""  className="text-[1.6rem]" >BBT ONE <span className="uppercase" > - Coming Soon</span></Link>
                 </li>
                 <li className="py-4 ">
-                    <Link href=""  className="text-[1.6rem]" >The Royale Pavilion <span className="uppercase ml-5" >(Coming Soon)</span></Link>
+                    <Link href=""  className="text-[1.6rem]" >The Royale Pavilion <span className="uppercase" > - Coming Soon</span></Link>
                 </li>
                 <li className="py-4 ">
-                    <Link href=""  className="text-[1.6rem]" >Sora <span className="uppercase ml-5" >(Coming Soon)</span></Link>
+                    <Link href=""  className="text-[1.6rem]" >Sora <span className="uppercase" > - Coming Soon</span></Link>
                 </li>
               </ul>
             </div>

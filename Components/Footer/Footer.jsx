@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       
-      <footer className="bg-black sm:pb-0" id="footer">
+      <footer className="bg-black" id="footer">
         <div className="max-1920">
           <div className="container">
             <div className="lg:hidden">

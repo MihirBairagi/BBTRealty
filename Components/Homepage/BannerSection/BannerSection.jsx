@@ -25,7 +25,7 @@ const BannerSection = () => {
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="container relative z-10">
-        <div className="bbtr-home-banner-box pt-[55rem] pb-[8rem] lg:pt-[32vw] lg:pb-[12rem] 1xl:pb-[15rem] 3xl:pb-[18rem]">
+        <div className="bbtr-home-banner-box h-[100vh] flex items-end pt-0 pb-[15vh] lg:h-auto lg:block lg:pt-[32vw] lg:pb-[12rem] 1xl:pb-[15rem] 3xl:pb-[18rem]">
           
           <div
             className="lg:flex lg:items-center lg:justify-between"
@@ -43,22 +43,27 @@ const BannerSection = () => {
               </h1>
             </div>
 
-            <div className="icon-box mt-[3.5rem] flex justify-center">
-              <Image
-                src="/images/bbtr-h-down-arrow.webp"
-                alt="Scroll Down"
-                width={272}
-                height={272}
-                priority
-                className="object-contain w-[8rem] lg:w-[9rem] xl:w-[11rem] 1xl:w-[13rem] 3xl:w-[17rem] hover:scale-[1.1] cursor-pointer transition-transform duration-300"
-                onClick={() => {
-                  window.scrollTo({
-                    top: window.innerHeight * 1.15,
-                    behavior: "smooth",
-                  });
-                }}
-              />
-            </div>
+            <Image
+              src="/images/bbtr-h-down-arrow.webp"
+              alt="Scroll Down"
+              width={272}
+              height={272}
+              priority
+              className="object-contain w-[8rem] lg:w-[9rem] xl:w-[11rem] 1xl:w-[13rem] 3xl:w-[17rem]
+                        cursor-pointer
+                        animate-bounce
+                        [animation-duration:2s]
+                        hover:scale-[1.1]
+                        transition-transform duration-300
+                        mx-auto mt-[5rem] lg:mx-0 lg:mt-[0] "
+              onClick={() => {
+                window.scrollTo({
+                  top: window.innerHeight * 1.15,
+                  behavior: "smooth",
+                });
+              }}
+            />
+
 
           </div>
         </div>
