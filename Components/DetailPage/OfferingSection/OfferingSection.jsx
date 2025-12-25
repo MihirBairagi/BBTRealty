@@ -72,7 +72,7 @@ function OfferingSection() {
         </div>
     </section>
 
-    <section className='bg-white pb-[8rem]' >
+    <section className='bg-white pb-[8rem] lg:pb-0' >
         <FixedBar/>
     </section>
 
