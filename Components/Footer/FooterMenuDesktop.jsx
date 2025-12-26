@@ -16,21 +16,21 @@ const FooterMenuDesktop = () => {
                 <Link href="/about-us">About Us</Link>
               </li>
               <li>
-                <Link href="/team">The Team</Link>
+                <Link href="">The Team</Link>
               </li>
 
               <li>
-                <Link href="/career">Career</Link>
+                <Link href="">Career</Link>
               </li>
               <li>
-                <Link href="/associates">Associates</Link>
+                <Link href="">Associates</Link>
               </li>
               <li>
-                <Link href="/bbt-squad">BBT Squad</Link>
+                <Link href="">BBT Squad</Link>
               </li>
 
               <li>
-                <Link href="/wallpapers">BBT Wallpapers</Link>
+                <Link href="">BBT Wallpapers</Link>
               </li>
               <li>
                 <Link href="/contact-us">Contact Us</Link>
@@ -48,31 +48,31 @@ const FooterMenuDesktop = () => {
                 <Link href="/faq">Faq</Link>
               </li>
               <li>
-                <Link href="/blogs">Blogs</Link>
+                <Link href="">Blogs</Link>
               </li>
               <li>
-                <Link href="/guides">Guides</Link>
+                <Link href="">Guides</Link>
               </li>
               <li>
-                <Link href="/insurances/car-insurance">
+                <Link href="">
                    Insurance
                 </Link>
               </li>
               <li>
-                <Link href="/modifications">Modifications</Link>
+                <Link href="">Modifications</Link>
               </li>
               <li>
-                <Link href="/car-detailing">Car Detailing</Link>
+                <Link href="">Car Detailing</Link>
               </li>
               <li>
-                <Link href="/car-news">Car News</Link>
+                <Link href="">Car News</Link>
               </li>
               <li>
-                <Link href="/showrooms">Showrooms</Link>
+                <Link href="">Showrooms</Link>
               </li>
 
               <li>
-                <Link href="/workshop">Workshop</Link>
+                <Link href="">Workshop</Link>
               </li>
             </ul>
           </div>

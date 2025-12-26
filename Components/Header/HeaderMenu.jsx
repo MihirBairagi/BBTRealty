@@ -44,7 +44,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
             <ul className="primary-menu">
               <li className="my-[5px]">
                 <Link
-                  href="/collection"
+                  href=""
                   className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
                   onClick={() => setOpenMenu(false)}
                   onMouseEnter={() => handleMouseEnter(collectionVideoRef)}
@@ -71,7 +71,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
               </li>
               <li className="my-[5px]">
                 <Link
-                  href="/modifications"
+                  href=""
                   className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
                   onClick={() => setOpenMenu(false)}
                   onMouseEnter={() => handleMouseEnter(modificationsVideoRef)}
@@ -98,7 +98,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
               </li>
               <li className="my-[5px]">
                 <Link
-                  href="/car-detailing"
+                  href=""
                   className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
                   onClick={() => setOpenMenu(false)}
                   onMouseEnter={() => handleMouseEnter(carDetailingVideoRef)}
@@ -125,7 +125,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
               </li>
               <li className="my-[5px]">
                 <Link
-                  href="/services"
+                  href=""
                   className="flex items-center text-[2.2rem] font-[300] relative py-[10px]"
                   onClick={() => setOpenMenu(false)}
                   onMouseEnter={() => handleMouseEnter(servicesVideoRef)}
@@ -158,7 +158,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
               <ul className="bottom-menu-1 xl:w-max mr-[80px]">
                 <li>
                   <Link
-                    href="/showrooms"
+                    href=""
                     className="block py-[5px] text-[#D7D6D4] text-[1.5rem]"
                     onClick={() => setOpenMenu(false)}
                   >
@@ -178,7 +178,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
 
                 <li>
                   <Link
-                    href="/wallpapers"
+                    href=""
                     className="block py-[5px] text-[#D7D6D4] text-[1.5rem]"
                     onClick={() => setOpenMenu(false)}
                   >
@@ -199,7 +199,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
               <ul className="bottom-menu-2 xl:w-max">
                 <li>
                   <Link
-                    href="/team"
+                    href=""
                     className="block py-[5px] text-[#D7D6D4] text-[1.5rem]"
                     onClick={() => setOpenMenu(false)}
                   >
@@ -209,7 +209,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
 
                 <li>
                   <Link
-                    href="/career"
+                    href=""
                     className="block py-[5px] text-[#D7D6D4] text-[1.5rem]"
                     onClick={() => setOpenMenu(false)}
                   >
@@ -219,7 +219,7 @@ const HeaderMenu = ({ openMenu = false, setOpenMenu }) => {
 
                 <li>
                   <Link
-                    href="/bbt-squad"
+                    href=""
                     className="block py-[5px] text-[#D7D6D4] text-[1.5rem]"
                     onClick={() => setOpenMenu(false)}
                   >
