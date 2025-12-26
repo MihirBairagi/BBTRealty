@@ -18,23 +18,23 @@ const Header = ({}) => {
   // Define static routes and dynamic route prefixes
   const staticRoutes = [
     "/about-us",
-    "/collection",
-    "/showrooms",
-    "/workshop",
-    "/wallpapers",
-    "/booking",
-    "/emi-calculator",
+    // "/collection",
+    // "/showrooms",
+    // "/workshop",
+    // "/wallpapers",
+    // "/booking",
+    // "/emi-calculator",
     "/privacy-policy",
     "/terms-and-conditions",
     "/disclaimer",
     "/refund-policy",
   ];
   const dynamicPrefixes = [
-    "/cars",
-    "/search-results",
-    "/filter-results",
-    "/projects",
-    "/blogs",
+    // "/cars",
+    // "/search-results",
+    // "/filter-results",
+    // "/projects",
+    // "/blogs",
   ];
 
   // Check for matching static or dynamic routes

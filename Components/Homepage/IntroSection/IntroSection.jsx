@@ -54,7 +54,7 @@ function IntroSection() {
                                     <p className='max-[1023px]:text-[1.2rem] para uppercase  text-[#545454] font-[500] hp-promise-after relative'  >Our Promise</p>
                                 </div>
                                 <ul className="flex items-center gap-[1.2rem] 1xl:gap-[1.8rem]">
-                                    <li className="bg-[#F3F3F3] w-[31.5%] px-p lg:p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]">
+                                    <li className="bg-[#F3F3F3] w-[31.5%] px-[1.2rem] py-[1.5rem]  lg:p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]">
                                         <p className="h3 font-[500]">
                                         0<Counter end={4} once />
                                         </p>
@@ -63,7 +63,7 @@ function IntroSection() {
                                         </p>
                                     </li>
 
-                                    <li className="bg-[#F3F3F3] w-[31.5%] px-p lg:p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]">
+                                    <li className="bg-[#F3F3F3] w-[31.5%] px-[1.2rem] py-[1.5rem]  lg:p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]">
                                         <p className="h3 font-[500]">
                                         <Counter end={15} suffix="+" once />
                                         </p>
@@ -72,7 +72,7 @@ function IntroSection() {
                                         </p>
                                     </li>
 
-                                    <li className="bg-[#F3F3F3] w-[31.5%] px-p lg:p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]">
+                                    <li className="bg-[#F3F3F3] w-[31.5%] px-[1.2rem] py-[1.5rem]  lg:p-[1.5rem] rounded-[1rem] 1xl:p-[2.5rem] 1xl:rounded-[1.5rem]">
                                         <p className="h3 font-[500]">
                                         <Counter end={100} suffix="%" once />
                                         </p>

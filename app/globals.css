@@ -1878,6 +1878,9 @@ img,
 .h-b-form-section{
   overflow: visible;
 }
+.slick-prev:before, .slick-next:before{
+  display: none;
+}
 
 .launching-soon-tag::after{
   content: "";
@@ -1945,6 +1948,20 @@ section#amenities-scroll .slick-track {
 }
 .visit-floating-box {
     opacity: 1;
+    height: auto;
+    display: flex;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+    width: 92%;
+    border-radius: 2rem;
+    bottom: 0;
+}
+.visit-floating-box p, .visit-floating-box a {
+    letter-spacing: -0.1rem;
+}
+.visit-floating-box p+p {
+    margin-bottom: 1.3rem;
+    letter-spacing: 0;
 }
 
 }

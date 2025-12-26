@@ -1,82 +1,95 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import VisitPopup from './VisitPopup'
+import VisitPopup from "./VisitPopup";
 
 function FixedBar() {
-  const barRef = useRef(null);
+  const sentinelRef = useRef(null);
+  const lastScrollY = useRef(0);
+  const footerRef = useRef(null);
+  const [isFooterVisible, setIsFooterVisible] = useState(false);
+
+
   const [isFixed, setIsFixed] = useState(false);
   const [openPopup, setOpenPopup] = useState(false);
 
-
   // ===============================
-  // Desktop-only IntersectionObserver
+  // DESKTOP ONLY behavior
   // ===============================
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    const isDesktop = window.innerWidth >= 1024;
-    if (!isDesktop) {
-      setIsFixed(false);
-      return;
-    }
+    // 🚫 DO NOTHING ON MOBILE
+    if (window.innerWidth < 1024) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setIsFixed(entry.isIntersecting);
+        const currentScrollY = window.scrollY;
+        const scrollingDown = currentScrollY > lastScrollY.current;
+
+        // Show only when scrolling DOWN past section
+        if (scrollingDown && !entry.isIntersecting) {
+          setIsFixed(true);
+        }
+
+        // Hide when scrolling UP or section visible
+        if (!scrollingDown || entry.isIntersecting) {
+          setIsFixed(false);
+        }
+
+        lastScrollY.current = currentScrollY;
       },
-      { threshold: 0.1 }
+      { threshold: 0 }
     );
 
-    if (barRef.current) observer.observe(barRef.current);
+    if (sentinelRef.current) observer.observe(sentinelRef.current);
 
-    const handleResize = () => {
-      if (window.innerWidth < 1024) {
-        setIsFixed(false);
-        observer.disconnect();
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => observer.disconnect();
   }, []);
 
-  // ===============================
-  // Toggle footer padding
-  // ===============================
   useEffect(() => {
-    const footer = document.querySelector("footer");
-    if (!footer) return;
+  if (typeof window === "undefined") return;
+  if (window.innerWidth < 1024) return;
 
-    if (isFixed) {
-      footer.classList.add("more-pad");
-    } else {
-      footer.classList.remove("more-pad");
+  footerRef.current = document.querySelector("footer");
+  if (!footerRef.current) return;
+
+  const footerObserver = new IntersectionObserver(
+    ([entry]) => {
+      setIsFooterVisible(entry.isIntersecting);
+    },
+    {
+      threshold: 0,
     }
+  );
 
-    return () => footer.classList.remove("more-pad");
-  }, [isFixed]);
+  footerObserver.observe(footerRef.current);
+
+  return () => footerObserver.disconnect();
+}, []);
+
 
   return (
     <>
-      {/* Placeholder to prevent layout jump (desktop only) */}
-      <div className={isFixed ? "hidden lg:block" : ""}></div>
+      {/* Sentinel — desktop only */}
+      <div ref={sentinelRef} className="hidden lg:block h-[1px] w-full" />
 
+      {/* Floating Bar */}
       <div
-        ref={barRef}
-        className={`visit-floating-box transition-all duration-300 z-80 lg:z-100 left-1/2 -translate-x-1/2 bottom-[0rem]  opacity-0
-        ${
-          isFixed
-            ? "hidden lg:flex fixed bottom-[3rem] left-1/2 -translate-x-1/2  opacity-100"
-            : "relative flex ml-0 mr-0 mb-[7rem  opacity-100]"
+        className={`visit-floating-box  z-80 lg:z-100
+          left-1/2 -translate-x-1/2 w-max bg-[#161616] rounded-[3rem] text-white
+          flex items-center justify-center
+          
+          ${
+            isFixed && !isFooterVisible
+              ? "hidden lg:flex fixed bottom-[3rem] opacity-100 py-[1.2rem] px-[1.5rem] transition-all duration-300"
+              : "relative bottom-[45vh] lg:opacity-0 lg:pointer-events-none h-0 overflow-hidden py-[0] px-[0] transition-all duration-0"
+          }
+
+
+          // Mobile behavior
+          lg:rounded-full `
         }
-        items-center justify-center w-max bg-[#161616] rounded-[3rem]
-        py-[1.5rem] px-[3rem] mx-auto text-white
-        lg:rounded-full lg:py-[2rem] 3xl:p-[4rem] `}
       >
         <div className="icon-box mr-[2.5rem]">
           <img
@@ -88,10 +101,10 @@ function FixedBar() {
 
         <div className="lg:flex lg:items-center">
           <div>
-            <p className="max-[1023px]:text-[2rem] f-26 font-medium tracking-[-0.1rem] lg:tracking-[0] mb-[0.5rem] lg:mb-[1rem]">
+            <p className="max-[1023px]:text-[2rem] f-26 font-medium mb-[0.5rem]">
               Plan a private walkthrough
             </p>
-            <p className="max-[1023px]:text-[1.4rem] mb-[1rem] f-24 text-[#808080]">
+            <p className="max-[1023px]:text-[1.4rem] f-24 text-[#808080]">
               Limited visit slots available
             </p>
           </div>
@@ -103,20 +116,19 @@ function FixedBar() {
                 e.preventDefault();
                 setOpenPopup(true);
               }}
-              className="max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem]
-              com-btn bg-black text-white border-[white] font-normal justify-center"
+              className="com-btn bg-black text-white border-[white]
+                font-normal justify-center"
             >
               Request Visit
             </Link>
-
           </div>
         </div>
       </div>
+
       <VisitPopup
         isOpen={openPopup}
         onClose={() => setOpenPopup(false)}
       />
-
     </>
   );
 }

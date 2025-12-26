@@ -1,34 +1,11 @@
 "use client";
-import React, { useEffect } from "react";
-import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 
 function ContactUs() {
 
-    useEffect(() => {
-          AOS.init();
-      }, []);
-
   return (
     <>
-     <section className="bg-[url('/images/c-mob-banner.webp')] lg:bg-[url('/images/c-banner.webp')] bg-cover bg-center bg-no-repeat" >
-        <div className="container">
-            <div className="pt-[34rem] pb-[8rem] lg:pt-[17vw] xl:pt-[15vw] lg:pb-[12rem] 1xl:pb-[15rem] 3xl:pb-[18rem]">
-                <div className="lg:flex lg:items-center lg:justify-between"
-                    data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="500"
-                >
-                    <div className="text-box text-white text-center lg:text-start lg:w-[50%]">
-                        <p className='max-[1023px]:text-[1.5rem] f-22 mb-[0.8rem] font-[200]' >Contact Us</p>
-                        <h1 className='h1 font-[200] tracking-[-0.2rem] leading-[1.2]' >Connect with <strong>BBt Realty</strong></h1>
-                        <p className="para mt-[0.8rem]" >Our team is here to assist you with project details, site visits, and personalised guidance</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-[#fff]' >
       <div className="container">
@@ -127,146 +104,6 @@ function ContactUs() {
       </div>
     </section>
 
-    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-[#F6F6F6]' >
-        <div className="container"
-          data-aos="fade-up" 
-          data-aos-easing="linear"
-          data-aos-duration="500"
-        >
-            <div className="lg:w-[40%]">
-                <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem] text-[#6C6C6C]' >Our offices</p>
-                <h2 className='h2-big font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem] 3xl:mb-[2rem]' >Our regional &<strong> project offices</strong></h2>
-                <p className='para font-[300]' >Our regional and project offices provide local expertise, support, and management to ensure successful delivery, coordination, and execution of all organizational initiatives.</p>
-            </div>
-            <ul className='mt-[3rem] flex flex-wrap justify-between lg:mt-0' >
-              <li className='w-full lg:w-[48%] mt-[5rem] lg:even:-mt-[15rem]' 
-                data-aos="fade-up" 
-                data-aos-easing="linear"
-                data-aos-duration="500"
-              >
-                <div className='mb-[2rem] 3xl:mb-[3rem]' >
-                  <img className='w-full' src="/images/c-office-1.webp" alt="" />
-                </div>
-                <div className="flex flex-wrap justify-between">
-                  <div className="text w-full lg:w-[60%]">
-                    <h3 className='max-[1023px]:text-[2.4rem] h3 mb-[1.5rem]' >PAVILION</h3>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-loc.png" alt="" />
-                        <p className='max-[1023px]:text-[1.6rem] f-20' >Baba marbles road, behind samanvay status, atladara- padra state highway, village bil, tehsil & district vadodara, 391410, gujarat.</p>
-                    </div>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-tel.png" alt="" />
-                        <a className='max-[1023px]:text-[1.6rem] f-20' href="tel:+919999999030:">(+91) 99999 990 30</a>
-                    </div>
-                    
-                  </div>
-                  <div className="btn-box w-full lg:w-max mt-[1.5rem] lg:mt-[1rem]">
-                    <a target="_blank" className=' px-[1.5rem] h-[5.5rem] lg:h-[4rem] xl:h-[5rem] 3xl:h-[6rem] 3xl:px-[2rem] 3xl:rounded-[1rem] flex items-center justify-between w-full border border-[#1616165f] rounded-[1rem] lg:rounded-[0.5rem] hover:bg-[#fff] hover:invert' 
-                    href="/pdf/PAVILION BY BBT BROSHURE FULL SIZE  .pdf">
-                        <div className="flex w-max items-center">
-                            <img className='w-[2rem] mr-[1.5rem] lg:mr-[1rem] lg:w-[1.5rem] 3xl:w-[2.5rem] 3xl:mr-[1.5rem]' src="/images/c-office-pdf.png" alt="" />
-                            <p className='max-[1023px]:text-[1.7rem] f-18' >Project Brochure</p>
-                        </div>
-                        <img className='w-[1.5rem] lg:w-[1rem] lg:ml-[1rem] 3xl:w-[1.5rem] 3xl:ml-[3rem]' src="/images/c-office-down.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li className='w-full lg:w-[48%] mt-[5rem] lg:even:-mt-[15rem]' 
-                data-aos="fade-up" 
-                data-aos-easing="linear"
-                data-aos-duration="500"
-              >
-                <div className='mb-[2rem] 3xl:mb-[3rem] launching-soon-tag relative' >
-                  <img className='w-full' src="/images/c-office-2.webp" alt="" />
-                </div>
-                <div className="flex flex-wrap justify-between">
-                  <div className="text w-full lg:w-[60%]">
-                    <h3 className='max-[1023px]:text-[2.4rem] h3 mb-[1.5rem]' >BBT ONE</h3>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-loc.png" alt="" />
-                        <p className='max-[1023px]:text-[1.6rem] f-20' >Baba marbles road, behind samanvay status, atladara- padra state highway, village bil, tehsil & district vadodara, 391410, gujarat.</p>
-                    </div>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-tel.png" alt="" />
-                        <a className='max-[1023px]:text-[1.6rem] f-20' href="tel:+919999999030:">(+91) 99999 990 30</a>
-                    </div>
-                    
-                  </div>
-                </div>
-              </li>
-              <li className='w-full lg:w-[48%] mt-[5rem] lg:even:-mt-[15rem]' 
-                data-aos="fade-up" 
-                data-aos-easing="linear"
-                data-aos-duration="500"
-              >
-                <div className='mb-[2rem] 3xl:mb-[3rem] launching-soon-tag relative' >
-                  <img className='w-full' src="/images/c-office-4.webp" alt="" />
-                </div>
-                <div className="flex flex-wrap justify-between">
-                  <div className="text w-full lg:w-[60%]">
-                    <h3 className='max-[1023px]:text-[2.4rem] h3 mb-[1.5rem]' >The Royale Pavilion</h3>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-loc.png" alt="" />
-                        <p className='max-[1023px]:text-[1.6rem] f-20' >Baba marbles road, behind samanvay status, atladara- padra state highway, village bil, tehsil & district vadodara, 391410, gujarat.</p>
-                    </div>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-tel.png" alt="" />
-                        <a className='max-[1023px]:text-[1.6rem] f-20' href="tel:+919999999030:">(+91) 99999 990 30</a>
-                    </div>
-                    
-                  </div>
-                </div>
-              </li>
-              <li className='w-full lg:w-[48%] mt-[5rem] lg:even:-mt-[15rem]' 
-                data-aos="fade-up" 
-                data-aos-easing="linear"
-                data-aos-duration="500"
-              >
-                <div className='mb-[2rem] 3xl:mb-[3rem] launching-soon-tag relative' >
-                  <img className='w-full' src="/images/c-office-3.webp" alt="" />
-                </div>
-                <div className="flex flex-wrap justify-between">
-                  <div className="text w-full lg:w-[60%]">
-                    <h3 className='max-[1023px]:text-[2.4rem] h3 mb-[1.5rem]' >SORA</h3>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-loc.png" alt="" />
-                        <p className='max-[1023px]:text-[1.6rem] f-20' >Baba marbles road, behind samanvay status, atladara- padra state highway, village bil, tehsil & district vadodara, 391410, gujarat.</p>
-                    </div>
-                    <div className='flex items-start mb-[1.5rem]' >
-                        <img className='w-[1.5rem] mr-[1.5rem] object-contain 3xl:w-[1.7rem] 3xl:mt-[0.5rem]' src="/images/c-office-tel.png" alt="" />
-                        <a className='max-[1023px]:text-[1.6rem] f-20' href="tel:+919999999030:">(+91) 99999 990 30</a>
-                    </div>
-                    
-                  </div>
-                </div>
-              </li>
-            </ul>
-        </div>
-    </section>
-
-    <section className='py-[7rem] xl:py-[10rem] 1xl:py-[11rem] 3xl:py-[14rem] bg-[#161616]' >
-        <div className="container">
-            <div className="flex justify-between items-center flex-wrap text-white"
-              data-aos="fade-up" 
-              data-aos-easing="linear"
-              data-aos-duration="500"
-            >
-                <div className="mb-[5rem] w-full lg:w-[45%]">
-                    <p className='max-[1023px]:text-[1.5rem] f-22 uppercase mb-[1rem]' >The House</p>
-                    <h2 className='h2-big font-[300] leading-[1.2] tracking-[-0.2rem] mb-[1rem] 3xl:mb-[2rem]' >Experience luxury at the <strong>Big Boy Toyz house.</strong></h2>
-                    <p className='para font-[300]' >The House of Big Boy Toyz represents a world where luxury, lifestyle, and passion come together seamlessly. More than India’s most trusted destination for pre-owned supercars, BBT has transformed into a lifestyle universe offering exclusive experiences and premium verticals for those who appreciate refined living. It celebrates the spirit of speed, design, craftsmanship, and individuality. From rare high-performance machines to ultra-luxury living concepts, each offering under the BBT umbrella is built with uncompromising quality and forward-thinking vision. Every brand reflects the values of excellence, exclusivity, and aspiration, creating a journey that goes far beyond ownership. The House of Big Boy Toyz is where luxury becomes personal, experiences become unforgettable, and desire becomes reality.</p>
-                    <div className='mt-[2.5rem]' >
-                        <Link href="/about-us" className='max-[1023px]:text-[1.5rem] max-[1023px]:h-[5rem] com-btn bg-transparent text-white border-[white] font-normal justify-center hover:bg-[#000]' >About Us</Link>
-                    </div>
-                </div>
-                <div className="img mx-auto w-full sm:w-[60%] lg:w-[48%] lg:mr-[0]">
-                    <img className='w-full hidden lg:block' src="/images/c-about-img.webp" alt="" />
-                    <img className='w-full lg:hidden' src="/images/c-about-mob-img.webp" alt="" />
-                </div>
-            </div>
-        </div>
-    </section>
 
 
   </>
